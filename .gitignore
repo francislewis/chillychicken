@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# PyCharm
+.idea/
+
+# Report working stuff
+references/
+
+# Bash scripts for automated testing
+*.sh
