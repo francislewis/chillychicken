@@ -1,0 +1,5 @@
+Serial:
+gcc -o fft_serial_v1 fft_serial_v1.c -lm
+
+OpenMP:
+gcc fft_c_openmp_v1.c -o fft_c_openmp_v1 -fopenmp -O3
