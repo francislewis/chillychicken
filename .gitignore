@@ -57,5 +57,8 @@ dkms.conf
 # Report working stuff
 references/
 
+# A very large folder
+previous_versions/
+
 # Bash scripts for automated testing
 *.sh
