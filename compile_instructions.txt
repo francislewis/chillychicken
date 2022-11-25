@@ -2,6 +2,6 @@ Serial:
 gcc  -g -o fft_serial.o fft_serial.c $(gsl-config --cflags) $(gsl-config --libs) -lm
 
 OpenMP:
-gcc fft_c_openmp_v1.c -o fft_c_openmp_v1 -fopenmp -O3
+gcc -o fft_omp_v1.o fft_omp_v1.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O3 -lm
 
 For all, include -g at the start for debugging with gdb
