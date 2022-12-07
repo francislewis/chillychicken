@@ -1,7 +1,13 @@
 Serial:
-gcc  -g -o fft_serial.o fft_serial.c $(gsl-config --cflags) $(gsl-config --libs) -lm
+gcc -o fft_serial.o fft_serial.c $(gsl-config --cflags) $(gsl-config --libs) -lm
 
 OpenMP:
-gcc -o fft_omp_v1.o fft_omp_v1.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O3 -lm
+gcc -o fft_omp_v1.o fft_omp_v1.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O2 -lm
+
+OpenMP on BC4:
+icc -xhost -o fft.o fft.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O2 -lm
+
+MPI:
+mpicc fft_mpi_v1.c -lm -o fft_mpi_v1.o -lm
 
 For all, include -g at the start for debugging with gdb
