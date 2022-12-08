@@ -47,7 +47,7 @@ int main(int argc, char *argv[]){
 
     // [0] - index, [1] - value, shared between master and sub array(s) to keep track when gathering results
     double complex sub_array[(size / comm_size)][2];
-    double complex master_array[size][2];
+    double complex input[size][2];
 
     if (dimension==1){
         if(rank == 0){
@@ -59,14 +59,14 @@ int main(int argc, char *argv[]){
 
             // Generate random input values
             for(int i = 0; i < size/2; i++){
-                master_array[i][0] = i;
-                master_array[i][1] = (((int) rand())%1000)+(((int) rand())%1000)*I;
-                master_array[i+size/2][0] = i+size/2;
-                master_array[i+size/2][1] = 0+0*I;
+                input[i][0] = i;
+                input[i][1] = (((int) rand())%1000)+(((int) rand())%1000)*I;
+                input[i+size/2][0] = i+size/2;
+                input[i+size/2][1] = 0+0*I;
 //                /*--------------------------------*/
 //                /*        Print to check          */
-//                printf("inputdat1[%d] = %f+%fj\n",i,creal(master_array[i][1]),cimag(master_array[i][1]));
-//                printf("inputdat1[%d] = %f+%fj\n",i+size/2,creal(master_array[i+size/2][1]),cimag(master_array[i+size/2][1]));
+//                printf("inputdat1[%d] = %f+%fj\n",i,creal(input[i][1]),cimag(input[i][1]));
+//                printf("inputdat1[%d] = %f+%fj\n",i+size/2,creal(input[i+size/2][1]),cimag(input[i+size/2][1]));
 //                /*--------------------------------*/
             }
         }
@@ -75,7 +75,7 @@ int main(int argc, char *argv[]){
         int chunk_size = (size / comm_size) * 2;
 
         // Scatter the array to sub arrays for each process
-        MPI_Scatter(master_array,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
+        MPI_Scatter(input,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
 
         // Main loop, only have to loop over half due to symmetry
         for (int k = 0; k < size / 2; k++){
@@ -177,15 +177,15 @@ int main(int argc, char *argv[]){
         for (int row=0; row < size; row++){
             // Put data into input for FFT along this row
             for(int i = 0; i < size; i++){
-                master_array[i][1] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, i))*I;
-                master_array[i][0] = i;
+                input[i][1] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, i))*I;
+                input[i][0] = i;
             }
 
             // Size of chunks to be scattered and gathered
             int chunk_size = (size / comm_size) * 2;
 
             // Scatter the array to sub arrays for each process
-            MPI_Scatter(master_array,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
+            MPI_Scatter(input,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
 
             // Main loop, only have to loop over half due to symmetry
             for (int k = 0; k < size / 2; k++){
@@ -251,15 +251,15 @@ int main(int argc, char *argv[]){
         for (int col=0; col < size; col++){
             // Put data into input for FFT along this row
             for(int i = 0; i < size; i++){
-                master_array[i][1] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, col, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, col, i))*I;
-                master_array[i][0] = i;
+                input[i][1] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, col, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, col, i))*I;
+                input[i][0] = i;
             }
 
             // Size of chunks to be scattered and gathered
             int chunk_size = (size / comm_size) * 2;
 
             // Scatter the array to sub arrays for each process
-            MPI_Scatter(master_array,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
+            MPI_Scatter(input,chunk_size,MPI_DOUBLE_COMPLEX,sub_array,chunk_size,MPI_DOUBLE_COMPLEX,0,MPI_COMM_WORLD);
 
             // Main loop, only have to loop over half due to symmetry
             for (int k = 0; k < size / 2; k++){

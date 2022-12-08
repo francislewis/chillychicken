@@ -10,7 +10,7 @@
 #define PI acos(-1)
 
 // Input pointer
-double complex* xinput = NULL;
+double complex* input = NULL;
 
 // Compute the even and odd parts of the FFT
 void even_odd(int size, int k, double complex* Ek, double complex* Ok){
@@ -28,8 +28,8 @@ void even_odd(int size, int k, double complex* Ek, double complex* Ok){
         exponent = cos(-2.0 * PI * m * k / (size/2)) + sin(-2.0 * PI * m * k / (size/2))*I;
 
         // Update odd and even parts
-        *Ek = *Ek + (xinput[2*m]*exponent);
-        *Ok = *Ok + (xinput[2*m+1]*exponent);
+        *Ek = *Ek + (input[2*m]*exponent);
+        *Ok = *Ok + (input[2*m+1]*exponent);
     }
 }
 
@@ -58,9 +58,9 @@ int main(int argc, char* argv[]){
     }
 
     // Allocate memory for input values
-    // xinput is the 1-D array passed through FFT
+    // input is the 1-D array passed through FFT
     // Once for 1-D and multiple times with different data for 2D
-    xinput = malloc(size * sizeof(complex));
+    input = malloc(size * sizeof(complex));
 
     double complex* temp_results = NULL;
     temp_results = malloc(size * sizeof(complex));
@@ -83,9 +83,9 @@ int main(int argc, char* argv[]){
 
 	    // Generate random input values
 	    for(int i = 0; i < size; i++){
-            xinput[i] = (((int) rand())%1000)+(((int) rand())%1000)*I;
-            in[i][0] = creal(xinput[i]);
-            in[i][1] = cimag(xinput[i]);
+            input[i] = (((int) rand())%1000)+(((int) rand())%1000)*I;
+            in[i][0] = creal(input[i]);
+            in[i][1] = cimag(input[i]);
 	    }
 
         // FFTW
@@ -162,9 +162,9 @@ int main(int argc, char* argv[]){
 
         // Loop over each row of matrix and do FFT
         for (int row=0; row < size; row++){
-            // Put data into xinput for FFT along this row
+            // Put data into input for FFT along this row
             for(int i = 0; i < size; i++){
-                xinput[i] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, i))*I;
+                input[i] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, i))*I;
 	        }
             for (int col=0; col < size; col++){
                 // Do FFT
@@ -188,9 +188,9 @@ int main(int argc, char* argv[]){
 
         // Loop over each column (although accessing by row due to transpose)
         for (int col=0; col < size; col++){
-            // Put data into xinput for FFT along this row
+            // Put data into input for FFT along this row
             for(int i = 0; i < size; i++){
-                xinput[i] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, col, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, col, i))*I;
+                input[i] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, col, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, col, i))*I;
 	        }
             for (int row=0; row < size; row++){
                 // Do FFT
