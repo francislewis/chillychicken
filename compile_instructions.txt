@@ -8,6 +8,9 @@ OpenMP on BC4:
 icc -xhost -o fft.o fft.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O2 -lm
 
 MPI:
-mpicc fft_mpi_v1.c -lm -o fft_mpi_v1.o -lm
+mpicc fft_mpi.c -lm -o fft_mpi.o $(gsl-config --cflags) $(gsl-config --libs) -lm
+
+MPI Accuracy Test:
+mpicc -o accuracy/fft_mpi_rmse.o accuracy/fft_mpi_rmse.c $(gsl-config --cflags) $(gsl-config --libs) -lfftw3 -lm
 
 For all, include -g at the start for debugging with gdb
