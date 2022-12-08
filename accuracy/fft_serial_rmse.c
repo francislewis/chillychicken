@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-#include <fftw3.h>
+#include<fftw3.h>
 #include<complex.h>
 #include<time.h>
 #include<gsl/gsl_matrix.h>
