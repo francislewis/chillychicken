@@ -28,12 +28,6 @@ void even_odd(int size, int k, double complex* Ek, double complex* Ok){
     }
 }
 
-// Compute the twiddle factors in Cooley-Turkey FFT
-double complex find_twiddle_term(int size, int k){
-    double complex twiddle_term = cos(-2.0 * PI * k / size)+sin(-2.0 * PI * k / size)*I;
-    return twiddle_term;
-}
-
 //Main function
 int main(int argc, char* argv[]){
 	// Ensure correct number of arguments
@@ -86,7 +80,7 @@ int main(int argc, char* argv[]){
         #pragma omp parallel for
         for(int k = 0; k < size; k++){
             // Find the twiddle factor term
-            twiddle_term = find_twiddle_term(size, k);
+            twiddle_term = cos(-2.0 * PI * k / size)+sin(-2.0 * PI * k / size)*I;
 
             // Compute FFT for even and odd values
             even_odd(size, k, Ek, Ok);
@@ -114,22 +108,21 @@ int main(int argc, char* argv[]){
         #pragma omp parallel for collapse(2)
         for(int row = 0; row < size; row++){
             for(int col = 0; col < size; col++){
-                int rand1 =(((int) rand())%1000);
-                int rand2 =(((int) rand())%1000);
                 // Create gsl complex number
                 gsl_complex rand_fill = gsl_complex_rect((((int) rand())%1000), (((int) rand())%1000));
                 // Add gsl complex to matrix
                 gsl_matrix_complex_set(rand_matrix, row, col, rand_fill);
             }
         }
-
-//        // Print to check
-//        printf("start:\n");
-//        for(int k = 0; k < size; k++){
-//            for(int j = 0; j < size; j++){
-//                printf("inputdat[%d][%d]= %f + %fj\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-//            }
-//        }
+        double setup_time = omp_get_wtime();
+        printf("Matrix Setup Time: %8.6f s\n", setup_time-start_time);
+        // Print to check
+        printf("start:\n");
+        for(int k = 0; k < size; k++){
+            for(int j = 0; j < size; j++){
+                printf("inputdat[%d][%d]= %f + %fj\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
+            }
+        }
         printf("\n");
 
         // Loop over each row of matrix and do FFT
@@ -137,14 +130,11 @@ int main(int argc, char* argv[]){
             // Put data into input for FFT along this row
             for(int i = 0; i < size; i++){
                 input[i] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, i))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, i))*I;
-	            // would be good to include this in loop below and do a loop collapse
-	            // But getting wrong results when replacing i with col
 	        }
             #pragma omp parallel for
             for (int col=0; col < size; col++){
-                //input[col] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, col))+GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, col))*I;
                 // Do FFT
-                twiddle_term = find_twiddle_term(size, col);
+                twiddle_term = cos(-2.0 * PI * col / size)+sin(-2.0 * PI * col / size)*I;
                 even_odd(size, col, Ek, Ok);
                 result = *Ek + (twiddle_term* *Ok);
                 // Update matrix with result
@@ -152,9 +142,15 @@ int main(int argc, char* argv[]){
             }
         }
 
+        double first_fft = omp_get_wtime();
+        printf("First FFT Time: %8.6f s\n", first_fft-setup_time);
+
         #pragma omp critical
         // Transpose matrix (in place - thanks to GSL)
         gsl_matrix_complex_transpose(rand_matrix);
+
+        double first_transpose = omp_get_wtime();
+        printf("First Transpose  Time: %8.6f s\n", first_transpose-first_fft);
 
         // Loop over each column (although accessing by row due to transpose)
         for (int col=0; col < size; col++){
@@ -165,25 +161,32 @@ int main(int argc, char* argv[]){
 	        #pragma omp parallel for
             for (int row=0; row < size; row++){
                 // Do FFT
-                twiddle_term = find_twiddle_term(size, row);
+                twiddle_term = cos(-2.0 * PI * row / size)+sin(-2.0 * PI * row / size)*I;
                 even_odd(size, row, Ek, Ok);
                 result = *Ek + (twiddle_term* *Ok);
                 gsl_matrix_complex_set(rand_matrix, col, row, gsl_complex_rect(creal(result), cimag(result)));
             }
         }
 
+        double second_fft = omp_get_wtime();
+        printf("Second FFT Time: %8.6f s\n", second_fft-first_transpose);
+
         #pragma omp critical
         // Transpose matrix back for final results, stored in rand_matrix
         gsl_matrix_complex_transpose(rand_matrix);
         end_time = omp_get_wtime();
-        printf("Time: %8.6f s\n", end_time-start_time);
 
-//        // Print to check
-//        for(int k = 0; k < size; k++){
-//            for(int j = 0; j < size; j++){
-//                printf("%d %d : %f + %f j\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-//            }
-//        }
+        double second_transpose = omp_get_wtime();
+        printf("Second Transpose Time: %8.6f s\n", second_transpose-second_fft);
+
+        printf("Total time: %8.6f s\n", end_time-start_time);
+
+        // Print to check
+        for(int k = 0; k < size; k++){
+            for(int j = 0; j < size; j++){
+                printf("%d %d : %f + %f j\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
+            }
+        }
         printf("\n");
 	}
     return 0;
