@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include<fftw3.h>
 #include<complex.h>
 #include<time.h>
 #include<gsl/gsl_matrix.h>
@@ -34,10 +35,6 @@ int main(int argc, char* argv[]){
     // Print info
     printf("Size: %d, Dimension: %d, Threads: %d\n", size, dimension, threads);
 
-    // Start timer
-    double start_time, end_time;
-    start_time = omp_get_wtime();
-
     // Setup arrays
     double complex input[size];
     double complex results[size];
@@ -48,16 +45,20 @@ int main(int argc, char* argv[]){
 /*--------------------------------------------------------------------------------------------------------------------*/
 
     if(dimension==1){
+        // Create input and output for FFTW
+        fftw_complex in[size], out[size];
+        // Create FFTW plan
+        fftw_plan p = fftw_plan_dft_1d(size, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
+
         // Generate random input values
         for(int i = 0; i < size; i++){
             input[i] = (((int) rand())%1000)+(((int) rand())%1000)*I;
-
-            /*        Print to check          */
-            //printf("inputdat1[%d] = %f+%fj\n",i,creal(input[i]),cimag(input[i]));
+            in[i][0] = creal(input[i]);
+            in[i][1] = cimag(input[i]);
         }
 
-        double setup_time = omp_get_wtime();
-        printf("Array Setup Time: %8.6f s\n", setup_time-start_time);
+        // FFTW
+        fftw_execute(p);
 
         // Main FFT loop
         #pragma omp parallel for
@@ -74,16 +75,33 @@ int main(int argc, char* argv[]){
             // Store results
             results[k] = even + odd;
             results[k+size/2] = even - odd;
-
-            // Print to check
-//            printf("%d: %f + %fj \n",k,creal(results[k]),cimag(results[k]));
-//            printf("%d: %f + %fj \n",k+size/2,creal(results[k+size/2]),cimag(results[k+size/2]));
         }
-        double final = omp_get_wtime();
-        printf("Final Time: %f s\n", final-setup_time);
+
+        double error = 0;
+        for (int i = 0; i < size; i++){
+            // Print to check
+//            printf("FFTW: %3d %+9.5f %+9.5f I\n", i, out[i][0], out[i][1]);
+//            printf("Mine: %3d %+9.5f %+9.5f I\n", i, creal(results[i]), cimag(results[i]));
+
+            // Calculate RMS error SUM[(observed_i-expected_i)*(observed_i-expected_i)/size] for real and complex parts
+            error += ((creal(results[i]) - out[i][0])*(creal(results[i]) - out[i][0])/size);
+            error += ((cimag(results[i]) - out[i][1])*(cimag(results[i]) - out[i][1])/size);
+        }
+
+        printf("\nRMSE: %f\n", error);
+        fftw_destroy_plan(p);
     }
 /*--------------------------------------------------------------------------------------------------------------------*/
 	if(dimension==2){
+	    // Create input and output arrays for FFTW
+        fftw_complex *in;
+        fftw_complex *out;
+        in = (fftw_complex*) fftw_malloc(size*size * sizeof(fftw_complex));
+        out = (fftw_complex*) fftw_malloc(size*size * sizeof(fftw_complex));
+
+        // Create FFTW plan
+	    fftw_plan p = fftw_plan_dft_2d(size, size, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
+
 	    // Allocate pointer for GSL matrix
         gsl_matrix_complex *rand_matrix = NULL;
         // Allocate memory for GSL matrix
@@ -99,20 +117,15 @@ int main(int argc, char* argv[]){
                 gsl_complex rand_fill = gsl_complex_rect((((int) rand())%1000), (((int) rand())%1000));
                 // Add gsl complex to matrix
                 gsl_matrix_complex_set(rand_matrix, row, col, rand_fill);
+
+                // Fill in FFTW input array
+                in[col+size*row][0] = GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, col));
+                in[col+size*row][1] = GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, col));
             }
         }
 
-//        // Print to check
-//        printf("start:\n");
-//        for(int k = 0; k < size; k++){
-//            for(int j = 0; j < size; j++){
-//                printf("inputdat[%d][%d]= %f + %fj\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-//            }
-//        }
-//        printf("\n");
-
-        double setup_time = omp_get_wtime();
-        printf("Matrix Setup Time: %8.6f s\n", setup_time-start_time);
+        // Carry out FFTW after input values filled in
+        fftw_execute(p);
 
         // Loop over each row of matrix and do FFT
         for (int row=0; row < size; row++){
@@ -140,15 +153,9 @@ int main(int argc, char* argv[]){
             }
         }
 
-        double first_fft = omp_get_wtime();
-        printf("First FFT Time: %8.6f s\n", first_fft-setup_time);
-
         // Transpose matrix (in place - thanks to GSL)
         #pragma omp critical
         gsl_matrix_complex_transpose(rand_matrix);
-
-        double first_transpose = omp_get_wtime();
-        printf("First Transpose  Time: %8.6f s\n", first_transpose-first_fft);
 
         // Loop over each col of matrix and do FFT (access via row due to transpose for speed)
         for (int col=0; col < size; col++){
@@ -176,26 +183,24 @@ int main(int argc, char* argv[]){
             }
         }
 
-        double second_fft = omp_get_wtime();
-        printf("Second FFT Time: %8.6f s\n", second_fft-first_transpose);
-
         // Transpose matrix back for final results - stored in rand_matrix
         #pragma omp critical
         gsl_matrix_complex_transpose(rand_matrix);
 
-//        // Print to check
-//        for(int k = 0; k < size; k++){
-//            for(int j = 0; j < size; j++){
-//                printf("%d %d : %f + %f j\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-//            }
-//        }
-//        printf("\n");
+        double error = 0;
+        for (int row = 0; row < size; row++){
+            for (int col =0; col< size; col++){
+                // Print to check
+//                printf("FFTW: %3d %3d: %+9.5f %+9.5f I\n", row,col, out[col+size*row][0], out[col+size*row][1]);
+//                printf("Mine: %3d %3d: %+9.5f %+9.5f I\n", row, col, GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, col)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, col)));
 
-        double end_time = omp_get_wtime();
-        double second_transpose = omp_get_wtime();
-        printf("Second Transpose Time: %8.6f s\n", second_transpose-second_fft);
-        printf("Total time: %8.6f s\n", end_time-start_time);
-
+                // Calculate RMS error SUM[(observed_i-expected_i)*(observed_i-expected_i)/size] for real and complex parts
+                error += (GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, col)) - (out[col+size*row][0]))*(GSL_REAL(gsl_matrix_complex_get(rand_matrix, row, col)) - (out[col+size*row][0]))/size;
+                error += (GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, col)) - (out[col+size*row][1]))*(GSL_IMAG(gsl_matrix_complex_get(rand_matrix, row, col)) - (out[col+size*row][1]))/size;
+            }
+        }
+        printf("\nRMSE: %f\n", error);
+        fftw_destroy_plan(p);
 	}
 	return 0;
 }
