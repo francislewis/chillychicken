@@ -1,5 +1,5 @@
 # chillychicken
-A parallel implementation of the Cooley-Turkey FFT algorithm in C for my University of Bristol masters unit in [Advanced Computational Physics](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=PHYSM0032), and a way to teach myself C.
+A parallel implementation of the Cooley-Turkey Fast Fourier Transform (FFT) algorithm in C for my University of Bristol masters unit in [Advanced Computational Physics](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=PHYSM0032), and as a way to teach myself C.
 
 There is a [serial](fft_serial.c) approach along with two parallel approaches. A [shared memory approach](fft_omp.c) which uses OpenMP is included, along with a [distributed memory approach](fft_mpi.c) using MPI.   
 
@@ -18,4 +18,3 @@ TODO:
 - Create header version for integration into other scripts?
 - Cleanup includes
 - Combine MPI and OMP approaches
-- Write test to compare results against known libraries
