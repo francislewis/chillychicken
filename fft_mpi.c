@@ -1,4 +1,3 @@
-// Aiming to combine 1D and 2D approaches here
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
