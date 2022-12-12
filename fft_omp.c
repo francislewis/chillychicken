@@ -56,8 +56,8 @@ int main(int argc, char* argv[]){
             //printf("inputdat1[%d] = %f+%fj\n",i,creal(input[i]),cimag(input[i]));
         }
 
-        double setup_time = omp_get_wtime();
-        printf("Array Setup Time: %8.6f s\n", setup_time-start_time);
+//        double setup_time = omp_get_wtime();
+//        printf("Array Setup Time: %8.6f s\n", setup_time-start_time);
 
         // Main FFT loop
         #pragma omp parallel for
@@ -79,8 +79,8 @@ int main(int argc, char* argv[]){
 //            printf("%d: %f + %fj \n",k,creal(results[k]),cimag(results[k]));
 //            printf("%d: %f + %fj \n",k+size/2,creal(results[k+size/2]),cimag(results[k+size/2]));
         }
-        double final = omp_get_wtime();
-        printf("Final Time: %f s\n", final-setup_time);
+        end_time = omp_get_wtime();
+        printf("Final Time: %f s\n", end_time-start_time);
     }
 /*--------------------------------------------------------------------------------------------------------------------*/
 	if(dimension==2){
@@ -111,8 +111,8 @@ int main(int argc, char* argv[]){
 //        }
 //        printf("\n");
 
-        double setup_time = omp_get_wtime();
-        printf("Matrix Setup Time: %8.6f s\n", setup_time-start_time);
+//        double setup_time = omp_get_wtime();
+//        printf("Matrix Setup Time: %8.6f s\n", setup_time-start_time);
 
         // Loop over each row of matrix and do FFT
         for (int row=0; row < size; row++){
@@ -140,15 +140,15 @@ int main(int argc, char* argv[]){
             }
         }
 
-        double first_fft = omp_get_wtime();
-        printf("First FFT Time: %8.6f s\n", first_fft-setup_time);
+//        double first_fft = omp_get_wtime();
+//        printf("First FFT Time: %8.6f s\n", first_fft-setup_time);
 
         // Transpose matrix (in place - thanks to GSL)
         #pragma omp critical
         gsl_matrix_complex_transpose(rand_matrix);
 
-        double first_transpose = omp_get_wtime();
-        printf("First Transpose  Time: %8.6f s\n", first_transpose-first_fft);
+//        double first_transpose = omp_get_wtime();
+//        printf("First Transpose  Time: %8.6f s\n", first_transpose-first_fft);
 
         // Loop over each col of matrix and do FFT (access via row due to transpose for speed)
         for (int col=0; col < size; col++){
@@ -176,8 +176,8 @@ int main(int argc, char* argv[]){
             }
         }
 
-        double second_fft = omp_get_wtime();
-        printf("Second FFT Time: %8.6f s\n", second_fft-first_transpose);
+//        double second_fft = omp_get_wtime();
+//        printf("Second FFT Time: %8.6f s\n", second_fft-first_transpose);
 
         // Transpose matrix back for final results - stored in rand_matrix
         #pragma omp critical
@@ -191,9 +191,9 @@ int main(int argc, char* argv[]){
 //        }
 //        printf("\n");
 
-        double end_time = omp_get_wtime();
-        double second_transpose = omp_get_wtime();
-        printf("Second Transpose Time: %8.6f s\n", second_transpose-second_fft);
+//        double second_transpose = omp_get_wtime();
+//        printf("Second Transpose Time: %8.6f s\n", second_transpose-second_fft);
+        end_time = omp_get_wtime();
         printf("Total time: %8.6f s\n", end_time-start_time);
 
 	}

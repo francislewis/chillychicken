@@ -18,6 +18,8 @@ int main(int argc, char* argv[]){
 
 	// Get command line arguments
 	int size = atoi(argv[1]);
+	// Optional line to take power of 2 as input for array jobs to run easier
+	// size = pow(2, size);
     int dimension = atoi(argv[2]);
 
     // Check if dimension in [1,2] using DeMorgan
@@ -28,6 +30,9 @@ int main(int argc, char* argv[]){
 
     // Print info
     printf("Size: %d, Dimension: %d\n", size, dimension);
+
+    time_t start, final;
+    start = time(NULL);
 
     // Setup arrays
     double complex input[size];
@@ -42,9 +47,8 @@ int main(int argc, char* argv[]){
         // Generate random input values
         for(int i = 0; i < size; i++){
             input[i] = (((int) rand())%1000)+(((int) rand())%1000)*I;
-
-            /*        Print to check          */
-            printf("inputdat1[%d] = %f+%fj\n",i,creal(input[i]),cimag(input[i]));
+//            /*        Print to check          */
+//            printf("inputdat1[%d] = %f+%fj\n",i,creal(input[i]),cimag(input[i]));
         }
 
         // Main FFT loop
@@ -62,9 +66,11 @@ int main(int argc, char* argv[]){
             results[k] = even + odd;
             results[k+size/2] = even - odd;
 
-            printf("%d: %f + %fj \n",k,creal(results[k]),cimag(results[k]));
-            printf("%d: %f + %fj \n",k+size/2,creal(results[k+size/2]),cimag(results[k+size/2]));
+//            printf("%d: %f + %fj \n",k,creal(results[k]),cimag(results[k]));
+//            printf("%d: %f + %fj \n",k+size/2,creal(results[k+size/2]),cimag(results[k+size/2]));
         }
+        final = time(NULL);
+        printf("Time: %ld\n", final-start);
     }
 /*--------------------------------------------------------------------------------------------------------------------*/
 	if(dimension==2){
@@ -86,14 +92,14 @@ int main(int argc, char* argv[]){
             }
         }
 
-        // Print to check
-        printf("start:\n");
-        for(int k = 0; k < size; k++){
-            for(int j = 0; j < size; j++){
-                printf("inputdat[%d][%d]= %f + %fj\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-            }
-        }
-        printf("\n");
+//        // Print to check
+//        printf("start:\n");
+//        for(int k = 0; k < size; k++){
+//            for(int j = 0; j < size; j++){
+//                printf("inputdat[%d][%d]= %f + %fj\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
+//            }
+//        }
+//        printf("\n");
 
         // Loop over each row of matrix and do FFT
         for (int row=0; row < size; row++){
@@ -151,13 +157,15 @@ int main(int argc, char* argv[]){
         // Transpose matrix back for final results - stored in rand_matrix
         gsl_matrix_complex_transpose(rand_matrix);
 
-        // Print to check
-        for(int k = 0; k < size; k++){
-            for(int j = 0; j < size; j++){
-                printf("%d %d : %f + %f j\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
-            }
-        }
-        printf("\n");
+//        // Print to check
+//        for(int k = 0; k < size; k++){
+//            for(int j = 0; j < size; j++){
+//                printf("%d %d : %f + %f j\n", k, j, GSL_REAL(gsl_matrix_complex_get(rand_matrix, k, j)), GSL_IMAG(gsl_matrix_complex_get(rand_matrix, k, j)));
+//            }
+//        }
+//        printf("\n");
+        final = time(NULL);
+        printf("Time: %ld\n", final-start);
 
 	}
 	return 0;
