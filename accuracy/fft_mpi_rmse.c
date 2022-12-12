@@ -33,10 +33,15 @@ int main(int argc, char *argv[]){
     // Get command line arguments
     int size = atoi(argv[1]);
     int dimension = atoi(argv[2]);
+    int orig = size;
+
+    int extra = (2*comm_size) - (size%(2*comm_size));
+    printf("%d", extra);
+    // size += extra;
 
     // Print info
     if (rank==0){
-        printf("\nSize: %d, Dimension: %d, Number of Processes: %d", size, dimension, comm_size);
+        printf("\n Orig: %d, Size: %d, Dimension: %d, Number of Processes: %d",orig, size, dimension, comm_size);
     }
 
     // Initialise arrays
@@ -96,29 +101,27 @@ int main(int argc, char *argv[]){
 
         // Main loop, only have to loop over half due to symmetry
         for (int k = 0; k < size / 2; k++){
-            double complex sumeven = 0.0 + 0.0*I;
-            double complex sumodd = 0.0 + 0.0*I;
+            double complex even = 0.0 + 0.0*I;
+            double complex odd = 0.0 + 0.0*I;
 
             // Calculate even and odd parts
             for(int i = 0; i < (size/comm_size)/2; i++){
-                double factoreven , factorodd = 0.0;
+                double factoreven = 0.0;
+                double factorodd = 0.0;
 
                 // Shift index numbers within sub arrays
                 int evenshift = rank * creal(sub_array[2*i][0]);
                 int oddshift = rank * creal(sub_array[2*i + 1][0]);
 
-                double complex even = sub_array[2*i][1];
-                double complex odd = sub_array[2*i + 1][1];
-
                 // If master rank, don't shift
                 // else, shift index of sub array in order for results to be in correct place
                 if(rank == 0){
-                    sub_even[i] = (even * (cos((((2*PI)*((2*i)*k))/size)) - (sin((((2*PI)*((2*i)*k))/size))*I)));
-                    sub_odd[i] = (odd * (cos((((2*PI)*((2*i+1)*k))/size)) - (sin((((2*PI)*((2*i+1)*k))/size))*I)));
+                    sub_even[i] = (sub_array[2*i][1] * (cos((((2*PI)*((2*i)*k))/size)) - (sin((((2*PI)*((2*i)*k))/size))*I)));
+                    sub_odd[i] = (sub_array[2*i + 1][1] * (cos((((2*PI)*((2*i+1)*k))/size)) - (sin((((2*PI)*((2*i+1)*k))/size))*I)));
                 }
                 else{
-                    sub_even[i] = (even * (cos((((2*PI)*((evenshift)*k))/size)) - (sin((((2*PI)*((evenshift)*k))/size))*I)));
-                    sub_odd[i] = (odd * (cos((((2*PI)*((oddshift)*k))/size)) - (sin((((2*PI)*((oddshift)*k))/size))*I)));
+                    sub_even[i] = (sub_array[2*i][1] * (cos((((2*PI)*((evenshift)*k))/size)) - (sin((((2*PI)*((evenshift)*k))/size))*I)));
+                    sub_odd[i] = (sub_array[2*i + 1][1] * (cos((((2*PI)*((oddshift)*k))/size)) - (sin((((2*PI)*((oddshift)*k))/size))*I)));
                 }
             }
 
@@ -129,14 +132,14 @@ int main(int argc, char *argv[]){
             if(rank == 0){
                 // Master rank sums even and odd parts
                 for(int i = 0; i < (size / comm_size / 2) * comm_size; i++){
-                    sumeven += master_even[i];
-                    sumodd += master_odd[i];
+                    even += master_even[i];
+                    odd += master_odd[i];
                 }
 
                 // Add even and odd parts
-                results[k] = (sumeven + sumodd);
+                results[k] = (even + odd);
                 // Take advantage of symmetry
-                results[k+size/2] = sumeven - sumodd; // Symmetry
+                results[k+size/2] = even - odd; // Symmetry
             }
         }
 
@@ -213,8 +216,8 @@ int main(int argc, char *argv[]){
 
             // Main loop, only have to loop over half due to symmetry
             for (int k = 0; k < size / 2; k++){
-                double complex sumeven = 0.0 + 0.0*I;
-                double complex sumodd = 0.0 + 0.0*I;
+                double complex even = 0.0 + 0.0*I;
+                double complex odd = 0.0 + 0.0*I;
 
                 // Calculate even and odd parts
                 for(int i = 0; i < (size/comm_size)/2; i++){
@@ -246,12 +249,12 @@ int main(int argc, char *argv[]){
                 if(rank == 0){
                     // Master rank sums even and odd parts
                     for(int i = 0; i < (size / comm_size / 2) * comm_size; i++){
-                        sumeven += master_even[i];
-                        sumodd += master_odd[i];
+                        even += master_even[i];
+                        odd += master_odd[i];
                     }
 
-                    results[k] = (sumeven + sumodd); // Add even and odd parts
-                    results[k+size/2] = sumeven - sumodd; // Symmetry
+                    results[k] = (even + odd); // Add even and odd parts
+                    results[k+size/2] = even - odd; // Symmetry
 
                     gsl_matrix_complex_set(rand_matrix, row, k, gsl_complex_rect(creal(results[k]), cimag(results[k])));
                     gsl_matrix_complex_set(rand_matrix, row, k+size/2, gsl_complex_rect(creal(results[k+size/2]), cimag(results[k+size/2])));
@@ -281,8 +284,8 @@ int main(int argc, char *argv[]){
 
             // Main loop, only have to loop over half due to symmetry
             for (int k = 0; k < size / 2; k++){
-                double complex sumeven = 0.0 + 0.0*I;
-                double complex sumodd = 0.0 + 0.0*I;
+                double complex even = 0.0 + 0.0*I;
+                double complex odd = 0.0 + 0.0*I;
 
                 // Calculate even and odd parts
                 for(int i = 0; i < (size/comm_size)/2; i++){
@@ -314,12 +317,12 @@ int main(int argc, char *argv[]){
                 if(rank == 0){
                     // Master rank sums even and odd parts
                     for(int i = 0; i < (size / comm_size / 2) * comm_size; i++){
-                        sumeven += master_even[i];
-                        sumodd += master_odd[i];
+                        even += master_even[i];
+                        odd += master_odd[i];
                     }
 
-                    results[k] = (sumeven + sumodd); // Add even and odd parts
-                    results[k+size/2] = sumeven - sumodd; // Symmetry
+                    results[k] = (even + odd); // Add even and odd parts
+                    results[k+size/2] = even - odd; // Symmetry
 
                     gsl_matrix_complex_set(rand_matrix, col, k, gsl_complex_rect(creal(results[k]), cimag(results[k])));
                     gsl_matrix_complex_set(rand_matrix, col, k+size/2, gsl_complex_rect(creal(results[k+size/2]), cimag(results[k+size/2])));
