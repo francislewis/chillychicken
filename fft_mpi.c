@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
 
     if (rank==0){
         // Ensure correct number of arguments
-        if (argc > 3){
+        if (argc < 3){
             printf("Usage: mpiexec -np <PROCESSES> %s <SIZE> <DIMENSION>\n",argv[0]);
             return 1;
         }
@@ -54,11 +54,11 @@ int main(int argc, char *argv[]){
     double complex sub_array[(size / comm_size)][2];
     double complex input[size][2];
 
+    // Start timer
+    double start = MPI_Wtime();
+
     if (dimension==1){
         if(rank == 0){
-            // Start timer on master rank
-            double start = MPI_Wtime();
-
             // Seed random number with current time
             srand(time(NULL));
 
@@ -135,7 +135,7 @@ int main(int argc, char *argv[]){
         if(rank == 0){
             // Print time taken
             double final = MPI_Wtime();
-            printf("Time: %f\n",final);
+            printf("Time: %f\n",final-start);
         }
 
         MPI_Barrier(MPI_COMM_WORLD); // Pause until all processes have caught up
