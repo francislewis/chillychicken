@@ -55,10 +55,10 @@ int main(int argc, char *argv[]){
     double complex sub_array[(size / comm_size)][2];
     double complex input[size][2];
 
+    double start = MPI_Wtime();
+
     if (dimension==1){
         if(rank == 0){
-            // Start timer on master rank
-            double start = MPI_Wtime();
 
             // Seed random number with current time
             srand(time(NULL));
@@ -139,7 +139,7 @@ int main(int argc, char *argv[]){
         if(rank == 0){
             // Print time taken
             double final = MPI_Wtime();
-            printf("Time: %f\n",final);
+            printf("Time: %f\n",final-start);
 
             double error =0;
 
