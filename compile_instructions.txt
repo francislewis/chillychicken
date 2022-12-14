@@ -1,16 +1,28 @@
 Serial:
 gcc -o fft_serial.o fft_serial.c $(gsl-config --cflags) $(gsl-config --libs) -lm
 
+Serial on BC4:
+icc -std=c99 -xhost -o fft_serial.o fft_serial.c -lgsl -lgslcblas -O2 -lm
+
 OpenMP:
-gcc -o fft_omp_v1.o fft_omp_v1.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O2 -lm
+gcc -o fft_omp.o fft_omp.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -lm
 
 OpenMP on BC4:
-icc -xhost -o fft.o fft.c $(gsl-config --cflags) $(gsl-config --libs) -fopenmp -O2 -lm
+icc -std=c99 -xhost -o fft_omp. fft_omp.c -lgsl -lgslcblas -fopenmp -O2 -lm
 
 MPI:
-mpicc fft_mpi.c -lm -o fft_mpi.o $(gsl-config --cflags) $(gsl-config --libs) -lm
+mpicc fft_mpi.c -o fft_mpi.o $(gsl-config --cflags) $(gsl-config --libs) -O2 -lm
+
+MPI on BC4:
+mpicc -std=c99 fft_mpi.c -xhost -o fft_mpi.o -lgsl -lgslcblas -O2 -lm
 
 MPI Accuracy Test:
 mpicc -o accuracy/fft_mpi_rmse.o accuracy/fft_mpi_rmse.c $(gsl-config --cflags) $(gsl-config --libs) -lfftw3 -lm
+
+Combined OpenMP and MPI:
+mpicc fft_mpi_omp.c -o fft_mpi_omp.o $(gsl-config --cflags) $(gsl-config --libs) -O2 -fopenmp -lm
+
+Combined OpenMP and MPI on BC4:
+mpicc -std=c99 fft_mpi_omp.c -xhost -o fft_mpi_omp.o -lgsl -lgslcblas -O2 -fopenmp -lm
 
 For all, include -g at the start for debugging with gdb
