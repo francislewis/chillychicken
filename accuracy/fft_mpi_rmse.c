@@ -36,8 +36,8 @@ int main(int argc, char *argv[]){
     int orig = size;
 
     int extra = (2*comm_size) - (size%(2*comm_size));
-    printf("%d", extra);
-    // size += extra;
+    //printf("%d", extra);
+    size += extra;
 
     // Print info
     if (rank==0){
