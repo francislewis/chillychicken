@@ -56,9 +56,12 @@ dkms.conf
 
 # Report working stuff
 references/
+speed/
 
 # A very large folder
 previous_versions/
 
 # Bash scripts for automated testing
-*.sh
+/*.sh
+/accuracy/*.sh
+
