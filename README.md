@@ -13,8 +13,5 @@ The effectiveness of these approaches are investigated using the [Blue Crystal 4
 
 TODO:
 
-- Check best compiler flags for serial and MPI 
 - Create MAKE files for easier building
-- Create header version for integration into other scripts?
-- Cleanup includes
-- Combine MPI and OMP approaches
+
