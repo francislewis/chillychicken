@@ -1,0 +1,768 @@
+
+Size: 1, Dimension: 1, Number of Processes: 1
+RMSE: -nan
+
+Size: 2, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 3, Dimension: 1, Number of Processes: 1
+RMSE: 269361.666667
+
+Size: 4, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 5, Dimension: 1, Number of Processes: 1
+RMSE: 84674.479031
+
+Size: 6, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 7, Dimension: 1, Number of Processes: 1
+RMSE: 1150574975644076237677920574397038172957150647036312709619687086309651392451229618819340270569514593130910368241717316831517436750526188191104867469734114064791082113655796996976491635059629869724096013797098410316309387998192436373535177540685479037403922432000.000000
+
+Size: 8, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 9, Dimension: 1, Number of Processes: 1
+RMSE: 471297.881117
+
+Size: 10, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 11, Dimension: 1, Number of Processes: 1
+RMSE: 429053.845842
+
+Size: 12, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 13, Dimension: 1, Number of Processes: 1
+RMSE: 394782.085169
+
+Size: 14, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 15, Dimension: 1, Number of Processes: 1
+RMSE: 1033680.506987
+
+Size: 16, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 17, Dimension: 1, Number of Processes: 1
+RMSE: 1354924.549389
+
+Size: 18, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 19, Dimension: 1, Number of Processes: 1
+RMSE: 2439348.838221
+
+Size: 20, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 21, Dimension: 1, Number of Processes: 1
+RMSE: 2372969.744696
+
+Size: 22, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 23, Dimension: 1, Number of Processes: 1
+RMSE: 2279269.217641
+
+Size: 24, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 25, Dimension: 1, Number of Processes: 1
+RMSE: 2993028.926192
+
+Size: 26, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 27, Dimension: 1, Number of Processes: 1
+RMSE: 2528215.319068
+
+Size: 28, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 29, Dimension: 1, Number of Processes: 1
+RMSE: 1563035.094202
+
+Size: 30, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 31, Dimension: 1, Number of Processes: 1
+RMSE: 3614467.554099
+
+Size: 32, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 33, Dimension: 1, Number of Processes: 1
+RMSE: 3209033.916482
+
+Size: 34, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 35, Dimension: 1, Number of Processes: 1
+RMSE: 4256036.924329
+
+Size: 36, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 37, Dimension: 1, Number of Processes: 1
+RMSE: 3485109.806060
+
+Size: 38, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 39, Dimension: 1, Number of Processes: 1
+RMSE: 4087867.160637
+
+Size: 40, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 41, Dimension: 1, Number of Processes: 1
+RMSE: 5945205.757987
+
+Size: 42, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 43, Dimension: 1, Number of Processes: 1
+RMSE: 4619840.395536
+
+Size: 44, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 45, Dimension: 1, Number of Processes: 1
+RMSE: 5710380.646669
+
+Size: 46, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 47, Dimension: 1, Number of Processes: 1
+RMSE: 4402659.791778
+
+Size: 48, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 49, Dimension: 1, Number of Processes: 1
+RMSE: 4244180.236903
+
+Size: 50, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 51, Dimension: 1, Number of Processes: 1
+RMSE: 5963782.978392
+
+Size: 52, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 53, Dimension: 1, Number of Processes: 1
+RMSE: 7064969.592510
+
+Size: 54, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 55, Dimension: 1, Number of Processes: 1
+RMSE: 6536443.113632
+
+Size: 56, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 57, Dimension: 1, Number of Processes: 1
+RMSE: 4525464.778116
+
+Size: 58, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 59, Dimension: 1, Number of Processes: 1
+RMSE: 4897353.326735
+
+Size: 60, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 61, Dimension: 1, Number of Processes: 1
+RMSE: 5509368.873899
+
+Size: 62, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 63, Dimension: 1, Number of Processes: 1
+RMSE: 3987990.077830
+
+Size: 64, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 65, Dimension: 1, Number of Processes: 1
+RMSE: 3939133.163254
+
+Size: 66, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 67, Dimension: 1, Number of Processes: 1
+RMSE: 5045127.215472
+
+Size: 68, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 69, Dimension: 1, Number of Processes: 1
+RMSE: 6223573.556632
+
+Size: 70, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 71, Dimension: 1, Number of Processes: 1
+RMSE: 5762998.792264
+
+Size: 72, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 73, Dimension: 1, Number of Processes: 1
+RMSE: -nan
+
+Size: 74, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 75, Dimension: 1, Number of Processes: 1
+RMSE: 5127341.128582
+
+Size: 76, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 77, Dimension: 1, Number of Processes: 1
+RMSE: 4382704.423454
+
+Size: 78, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 79, Dimension: 1, Number of Processes: 1
+RMSE: 8270574.897720
+
+Size: 80, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 81, Dimension: 1, Number of Processes: 1
+RMSE: 7773317.529456
+
+Size: 82, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 83, Dimension: 1, Number of Processes: 1
+RMSE: 8795047.279672
+
+Size: 84, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 85, Dimension: 1, Number of Processes: 1
+RMSE: 10373170.854412
+
+Size: 86, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 87, Dimension: 1, Number of Processes: 1
+RMSE: 8916308.641333
+
+Size: 88, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 89, Dimension: 1, Number of Processes: 1
+RMSE: 10101751.879950
+
+Size: 90, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 91, Dimension: 1, Number of Processes: 1
+RMSE: 9646301.445361
+
+Size: 92, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 93, Dimension: 1, Number of Processes: 1
+RMSE: 9279914.746456
+
+Size: 94, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 95, Dimension: 1, Number of Processes: 1
+RMSE: 9080821.446550
+
+Size: 96, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 97, Dimension: 1, Number of Processes: 1
+RMSE: 11173457.166048
+
+Size: 98, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 99, Dimension: 1, Number of Processes: 1
+RMSE: 10400368.725165
+
+Size: 100, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 101, Dimension: 1, Number of Processes: 1
+RMSE: 11312723.449739
+
+Size: 102, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 103, Dimension: 1, Number of Processes: 1
+RMSE: 9642393.756901
+
+Size: 104, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 105, Dimension: 1, Number of Processes: 1
+RMSE: nan
+
+Size: 106, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 107, Dimension: 1, Number of Processes: 1
+RMSE: 10149099.474998
+
+Size: 108, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 109, Dimension: 1, Number of Processes: 1
+RMSE: 9439032.156701
+
+Size: 110, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 111, Dimension: 1, Number of Processes: 1
+RMSE: 10088485.089318
+
+Size: 112, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 113, Dimension: 1, Number of Processes: 1
+RMSE: 11123428.523548
+
+Size: 114, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 115, Dimension: 1, Number of Processes: 1
+RMSE: 11817027.429763
+
+Size: 116, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 117, Dimension: 1, Number of Processes: 1
+RMSE: 11048195.887540
+
+Size: 118, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 119, Dimension: 1, Number of Processes: 1
+RMSE: 12341118.281299
+
+Size: 120, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 121, Dimension: 1, Number of Processes: 1
+RMSE: 12513026.102272
+
+Size: 122, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 123, Dimension: 1, Number of Processes: 1
+RMSE: 12667032.536023
+
+Size: 124, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 125, Dimension: 1, Number of Processes: 1
+RMSE: 13010955.948973
+
+Size: 126, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 127, Dimension: 1, Number of Processes: 1
+RMSE: 13876018.666523
+
+Size: 128, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 129, Dimension: 1, Number of Processes: 1
+RMSE: 14344171.940080
+
+Size: 130, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 131, Dimension: 1, Number of Processes: 1
+RMSE: 12587469.575261
+
+Size: 132, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 133, Dimension: 1, Number of Processes: 1
+RMSE: 14137883.730241
+
+Size: 134, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 135, Dimension: 1, Number of Processes: 1
+RMSE: 15456188.747429
+
+Size: 136, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 137, Dimension: 1, Number of Processes: 1
+RMSE: 13058224.827379
+
+Size: 138, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 139, Dimension: 1, Number of Processes: 1
+RMSE: 16631772.002289
+
+Size: 140, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 141, Dimension: 1, Number of Processes: 1
+RMSE: 16956074.985940
+
+Size: 142, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 143, Dimension: 1, Number of Processes: 1
+RMSE: 14041894.217392
+
+Size: 144, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 145, Dimension: 1, Number of Processes: 1
+RMSE: 14436409.173662
+
+Size: 146, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 147, Dimension: 1, Number of Processes: 1
+RMSE: 13194585.450831
+
+Size: 148, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 149, Dimension: 1, Number of Processes: 1
+RMSE: 12788307.601380
+
+Size: 150, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 151, Dimension: 1, Number of Processes: 1
+RMSE: 12774753.737565
+
+Size: 152, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 153, Dimension: 1, Number of Processes: 1
+RMSE: 13143476.748015
+
+Size: 154, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 155, Dimension: 1, Number of Processes: 1
+RMSE: 13982808.427550
+
+Size: 156, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 157, Dimension: 1, Number of Processes: 1
+RMSE: 14341834.541871
+
+Size: 158, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 159, Dimension: 1, Number of Processes: 1
+RMSE: 16580392.544298
+
+Size: 160, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 161, Dimension: 1, Number of Processes: 1
+RMSE: 16659328.759394
+
+Size: 162, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 163, Dimension: 1, Number of Processes: 1
+RMSE: 17897162.965408
+
+Size: 164, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 165, Dimension: 1, Number of Processes: 1
+RMSE: 19869198.522883
+
+Size: 166, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 167, Dimension: 1, Number of Processes: 1
+RMSE: 19740712.305455
+
+Size: 168, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 169, Dimension: 1, Number of Processes: 1
+RMSE: 15746697.155616
+
+Size: 170, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 171, Dimension: 1, Number of Processes: 1
+RMSE: 20081054.412712
+
+Size: 172, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 173, Dimension: 1, Number of Processes: 1
+RMSE: 19159697.821892
+
+Size: 174, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 175, Dimension: 1, Number of Processes: 1
+RMSE: 17378127.263537
+
+Size: 176, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 177, Dimension: 1, Number of Processes: 1
+RMSE: 16785020.718189
+
+Size: 178, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 179, Dimension: 1, Number of Processes: 1
+RMSE: -nan
+
+Size: 180, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 181, Dimension: 1, Number of Processes: 1
+RMSE: 16699856.196890
+
+Size: 182, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 183, Dimension: 1, Number of Processes: 1
+RMSE: 18832734.137437
+
+Size: 184, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 185, Dimension: 1, Number of Processes: 1
+RMSE: 18951910.776285
+
+Size: 186, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 187, Dimension: 1, Number of Processes: 1
+RMSE: 18043852.481895
+
+Size: 188, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 189, Dimension: 1, Number of Processes: 1
+RMSE: 19089511.305972
+
+Size: 190, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 191, Dimension: 1, Number of Processes: 1
+RMSE: 20879805.519370
+
+Size: 192, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 193, Dimension: 1, Number of Processes: 1
+RMSE: 20482189.909203
+
+Size: 194, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 195, Dimension: 1, Number of Processes: 1
+RMSE: 18147702.104323
+
+Size: 196, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 197, Dimension: 1, Number of Processes: 1
+RMSE: 24052580.267003
+
+Size: 198, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 199, Dimension: 1, Number of Processes: 1
+RMSE: 24215180.785306
+
+Size: 200, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 201, Dimension: 1, Number of Processes: 1
+RMSE: 22098673.520490
+
+Size: 202, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 203, Dimension: 1, Number of Processes: 1
+RMSE: -nan
+
+Size: 204, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 205, Dimension: 1, Number of Processes: 1
+RMSE: -nan
+
+Size: 206, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 207, Dimension: 1, Number of Processes: 1
+RMSE: 22629612.168863
+
+Size: 208, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 209, Dimension: 1, Number of Processes: 1
+RMSE: 22170267.065966
+
+Size: 210, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 211, Dimension: 1, Number of Processes: 1
+RMSE: 23088190.631824
+
+Size: 212, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 213, Dimension: 1, Number of Processes: 1
+RMSE: 21566698.369474
+
+Size: 214, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 215, Dimension: 1, Number of Processes: 1
+RMSE: 22634860.881493
+
+Size: 216, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 217, Dimension: 1, Number of Processes: 1
+RMSE: 18986064.869452
+
+Size: 218, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 219, Dimension: 1, Number of Processes: 1
+RMSE: 18907714.458691
+
+Size: 220, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 221, Dimension: 1, Number of Processes: 1
+RMSE: 24857895.983783
+
+Size: 222, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 223, Dimension: 1, Number of Processes: 1
+RMSE: 24048431.797930
+
+Size: 224, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 225, Dimension: 1, Number of Processes: 1
+RMSE: 23072253.208101
+
+Size: 226, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 227, Dimension: 1, Number of Processes: 1
+RMSE: 19183838.908814
+
+Size: 228, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 229, Dimension: 1, Number of Processes: 1
+RMSE: 21160775.988078
+
+Size: 230, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 231, Dimension: 1, Number of Processes: 1
+RMSE: 21462513.164604
+
+Size: 232, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 233, Dimension: 1, Number of Processes: 1
+RMSE: 22761340.660165
+
+Size: 234, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 235, Dimension: 1, Number of Processes: 1
+RMSE: 24914565.751503
+
+Size: 236, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 237, Dimension: 1, Number of Processes: 1
+RMSE: 24089366.229088
+
+Size: 238, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 239, Dimension: 1, Number of Processes: 1
+RMSE: 23861248.309355
+
+Size: 240, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 241, Dimension: 1, Number of Processes: 1
+RMSE: 25545501.426528
+
+Size: 242, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 243, Dimension: 1, Number of Processes: 1
+RMSE: 25973482.179915
+
+Size: 244, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 245, Dimension: 1, Number of Processes: 1
+RMSE: 22695341.509526
+
+Size: 246, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 247, Dimension: 1, Number of Processes: 1
+RMSE: 22193413.340568
+
+Size: 248, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 249, Dimension: 1, Number of Processes: 1
+RMSE: 23336350.011468
+
+Size: 250, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 251, Dimension: 1, Number of Processes: 1
+RMSE: 29029171.840489
+
+Size: 252, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 253, Dimension: 1, Number of Processes: 1
+RMSE: 24808018.058162
+
+Size: 254, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000
+
+Size: 255, Dimension: 1, Number of Processes: 1
+RMSE: 24432593.680562
+
+Size: 256, Dimension: 1, Number of Processes: 1
+RMSE: 0.000000

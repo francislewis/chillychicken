@@ -1,0 +1,300 @@
+Input: 1000,  Size: 1008, Dimension: 1, Number of Processes: 4
+Time: 0.010937
+Input: 1000,  Size: 1008, Dimension: 1, Number of Processes: 4
+Time: 0.014112
+Input: 1000,  Size: 1008, Dimension: 1, Number of Processes: 4
+Time: 0.013610
+Input: 2000,  Size: 2008, Dimension: 1, Number of Processes: 4
+Time: 0.051600
+Input: 2000,  Size: 2008, Dimension: 1, Number of Processes: 4
+Time: 0.046017
+Input: 2000,  Size: 2008, Dimension: 1, Number of Processes: 4
+Time: 0.049529
+Input: 3000,  Size: 3008, Dimension: 1, Number of Processes: 4
+Time: 0.114051
+Input: 3000,  Size: 3008, Dimension: 1, Number of Processes: 4
+Time: 0.764180
+Input: 3000,  Size: 3008, Dimension: 1, Number of Processes: 4
+Time: 0.145013
+Input: 4000,  Size: 4008, Dimension: 1, Number of Processes: 4
+Time: 0.182887
+Input: 4000,  Size: 4008, Dimension: 1, Number of Processes: 4
+Time: 0.722344
+Input: 4000,  Size: 4008, Dimension: 1, Number of Processes: 4
+Time: 0.255789
+Input: 5000,  Size: 5008, Dimension: 1, Number of Processes: 4
+Time: 1.094637
+Input: 5000,  Size: 5008, Dimension: 1, Number of Processes: 4
+Time: 0.298049
+Input: 5000,  Size: 5008, Dimension: 1, Number of Processes: 4
+Time: 1.081088
+Input: 6000,  Size: 6008, Dimension: 1, Number of Processes: 4
+Time: 0.437248
+Input: 6000,  Size: 6008, Dimension: 1, Number of Processes: 4
+Time: 0.578322
+Input: 6000,  Size: 6008, Dimension: 1, Number of Processes: 4
+Time: 0.770628
+Input: 7000,  Size: 7008, Dimension: 1, Number of Processes: 4
+Time: 0.623905
+Input: 7000,  Size: 7008, Dimension: 1, Number of Processes: 4
+Time: 0.609020
+Input: 7000,  Size: 7008, Dimension: 1, Number of Processes: 4
+Time: 0.738731
+Input: 8000,  Size: 8008, Dimension: 1, Number of Processes: 4
+Time: 0.766382
+Input: 8000,  Size: 8008, Dimension: 1, Number of Processes: 4
+Time: 0.784021
+Input: 8000,  Size: 8008, Dimension: 1, Number of Processes: 4
+Time: 0.781431
+Input: 9000,  Size: 9008, Dimension: 1, Number of Processes: 4
+Time: 0.937988
+Input: 9000,  Size: 9008, Dimension: 1, Number of Processes: 4
+Time: 1.149345
+Input: 9000,  Size: 9008, Dimension: 1, Number of Processes: 4
+Time: 2.084647
+Input: 10000,  Size: 10008, Dimension: 1, Number of Processes: 4
+Time: 1.425484
+Input: 10000,  Size: 10008, Dimension: 1, Number of Processes: 4
+Time: 1.161840
+Input: 10000,  Size: 10008, Dimension: 1, Number of Processes: 4
+Time: 1.118242
+Input: 11000,  Size: 11008, Dimension: 1, Number of Processes: 4
+Time: 1.308754
+Input: 11000,  Size: 11008, Dimension: 1, Number of Processes: 4
+Time: 1.377075
+Input: 11000,  Size: 11008, Dimension: 1, Number of Processes: 4
+Time: 1.329962
+Input: 12000,  Size: 12008, Dimension: 1, Number of Processes: 4
+Time: 1.637321
+Input: 12000,  Size: 12008, Dimension: 1, Number of Processes: 4
+Time: 1.656132
+Input: 12000,  Size: 12008, Dimension: 1, Number of Processes: 4
+Time: 1.587890
+Input: 13000,  Size: 13008, Dimension: 1, Number of Processes: 4
+Time: 1.886604
+Input: 13000,  Size: 13008, Dimension: 1, Number of Processes: 4
+Time: 1.855200
+Input: 13000,  Size: 13008, Dimension: 1, Number of Processes: 4
+Time: 2.591144
+Input: 14000,  Size: 14008, Dimension: 1, Number of Processes: 4
+Time: 2.147840
+Input: 14000,  Size: 14008, Dimension: 1, Number of Processes: 4
+Time: 2.150904
+Input: 14000,  Size: 14008, Dimension: 1, Number of Processes: 4
+Time: 2.143709
+Input: 15000,  Size: 15008, Dimension: 1, Number of Processes: 4
+Time: 3.162882
+Input: 15000,  Size: 15008, Dimension: 1, Number of Processes: 4
+Time: 2.450078
+Input: 15000,  Size: 15008, Dimension: 1, Number of Processes: 4
+Time: 2.427772
+Input: 16000,  Size: 16008, Dimension: 1, Number of Processes: 4
+Time: 2.769018
+Input: 16000,  Size: 16008, Dimension: 1, Number of Processes: 4
+Time: 2.764931
+Input: 16000,  Size: 16008, Dimension: 1, Number of Processes: 4
+Time: 2.759690
+Input: 17000,  Size: 17008, Dimension: 1, Number of Processes: 4
+Time: 3.085506
+Input: 17000,  Size: 17008, Dimension: 1, Number of Processes: 4
+Time: 3.047807
+Input: 17000,  Size: 17008, Dimension: 1, Number of Processes: 4
+Time: 3.896116
+Input: 18000,  Size: 18008, Dimension: 1, Number of Processes: 4
+Time: 3.516218
+Input: 18000,  Size: 18008, Dimension: 1, Number of Processes: 4
+Time: 3.676878
+Input: 18000,  Size: 18008, Dimension: 1, Number of Processes: 4
+Time: 4.220859
+Input: 19000,  Size: 19008, Dimension: 1, Number of Processes: 4
+Time: 6.032647
+Input: 19000,  Size: 19008, Dimension: 1, Number of Processes: 4
+Time: 8.772275
+Input: 19000,  Size: 19008, Dimension: 1, Number of Processes: 4
+Time: 5.554017
+Input: 20000,  Size: 20008, Dimension: 1, Number of Processes: 4
+Time: 5.944048
+Input: 20000,  Size: 20008, Dimension: 1, Number of Processes: 4
+Time: 4.842817
+Input: 20000,  Size: 20008, Dimension: 1, Number of Processes: 4
+Time: 5.169294
+Input: 21000,  Size: 21008, Dimension: 1, Number of Processes: 4
+Time: 4.942037
+Input: 21000,  Size: 21008, Dimension: 1, Number of Processes: 4
+Time: 6.811077
+Input: 21000,  Size: 21008, Dimension: 1, Number of Processes: 4
+Time: 5.808801
+Input: 22000,  Size: 22008, Dimension: 1, Number of Processes: 4
+Time: 7.276848
+Input: 22000,  Size: 22008, Dimension: 1, Number of Processes: 4
+Time: 5.342837
+Input: 22000,  Size: 22008, Dimension: 1, Number of Processes: 4
+Time: 9.430212
+Input: 23000,  Size: 23008, Dimension: 1, Number of Processes: 4
+Time: 7.400673
+Input: 23000,  Size: 23008, Dimension: 1, Number of Processes: 4
+Time: 7.192513
+Input: 23000,  Size: 23008, Dimension: 1, Number of Processes: 4
+Time: 6.198572
+Input: 24000,  Size: 24008, Dimension: 1, Number of Processes: 4
+Time: 6.887156
+Input: 24000,  Size: 24008, Dimension: 1, Number of Processes: 4
+Time: 6.648891
+Input: 24000,  Size: 24008, Dimension: 1, Number of Processes: 4
+Time: 13.016189
+Input: 25000,  Size: 25008, Dimension: 1, Number of Processes: 4
+Time: 11.297560
+Input: 25000,  Size: 25008, Dimension: 1, Number of Processes: 4
+Time: 8.631345
+Input: 25000,  Size: 25008, Dimension: 1, Number of Processes: 4
+Time: 6.975932
+Input: 26000,  Size: 26008, Dimension: 1, Number of Processes: 4
+Time: 24.402312
+Input: 26000,  Size: 26008, Dimension: 1, Number of Processes: 4
+Time: 16.508315
+Input: 26000,  Size: 26008, Dimension: 1, Number of Processes: 4
+Time: 9.452960
+Input: 27000,  Size: 27008, Dimension: 1, Number of Processes: 4
+Time: 8.421625
+Input: 27000,  Size: 27008, Dimension: 1, Number of Processes: 4
+Time: 10.794828
+Input: 27000,  Size: 27008, Dimension: 1, Number of Processes: 4
+Time: 10.046240
+Input: 28000,  Size: 28008, Dimension: 1, Number of Processes: 4
+Time: 9.780399
+Input: 28000,  Size: 28008, Dimension: 1, Number of Processes: 4
+Time: 9.937053
+Input: 28000,  Size: 28008, Dimension: 1, Number of Processes: 4
+Time: 10.148312
+Input: 29000,  Size: 29008, Dimension: 1, Number of Processes: 4
+Time: 15.435879
+Input: 29000,  Size: 29008, Dimension: 1, Number of Processes: 4
+Time: 22.960683
+Input: 29000,  Size: 29008, Dimension: 1, Number of Processes: 4
+Time: 11.463813
+Input: 30000,  Size: 30008, Dimension: 1, Number of Processes: 4
+Time: 10.987739
+Input: 30000,  Size: 30008, Dimension: 1, Number of Processes: 4
+Time: 15.523147
+Input: 30000,  Size: 30008, Dimension: 1, Number of Processes: 4
+Time: 13.027817
+Input: 31000,  Size: 31008, Dimension: 1, Number of Processes: 4
+Time: 17.399910
+Input: 31000,  Size: 31008, Dimension: 1, Number of Processes: 4
+Time: 14.596493
+Input: 31000,  Size: 31008, Dimension: 1, Number of Processes: 4
+Time: 16.510996
+Input: 32000,  Size: 32008, Dimension: 1, Number of Processes: 4
+Time: 13.162872
+Input: 32000,  Size: 32008, Dimension: 1, Number of Processes: 4
+Time: 20.330782
+Input: 32000,  Size: 32008, Dimension: 1, Number of Processes: 4
+Time: 14.399731
+Input: 33000,  Size: 33008, Dimension: 1, Number of Processes: 4
+Time: 15.464061
+Input: 33000,  Size: 33008, Dimension: 1, Number of Processes: 4
+Time: 33.476811
+Input: 33000,  Size: 33008, Dimension: 1, Number of Processes: 4
+Time: 16.808386
+Input: 34000,  Size: 34008, Dimension: 1, Number of Processes: 4
+Time: 14.519619
+Input: 34000,  Size: 34008, Dimension: 1, Number of Processes: 4
+Time: 14.206323
+Input: 34000,  Size: 34008, Dimension: 1, Number of Processes: 4
+Time: 34.293864
+Input: 35000,  Size: 35008, Dimension: 1, Number of Processes: 4
+Time: 19.622819
+Input: 35000,  Size: 35008, Dimension: 1, Number of Processes: 4
+Time: 19.059845
+Input: 35000,  Size: 35008, Dimension: 1, Number of Processes: 4
+Time: 23.410195
+Input: 36000,  Size: 36008, Dimension: 1, Number of Processes: 4
+Time: 19.501743
+Input: 36000,  Size: 36008, Dimension: 1, Number of Processes: 4
+Time: 28.802917
+Input: 36000,  Size: 36008, Dimension: 1, Number of Processes: 4
+Time: 19.728913
+Input: 37000,  Size: 37008, Dimension: 1, Number of Processes: 4
+Time: 21.819803
+Input: 37000,  Size: 37008, Dimension: 1, Number of Processes: 4
+Time: 31.850598
+Input: 37000,  Size: 37008, Dimension: 1, Number of Processes: 4
+Time: 18.565996
+Input: 38000,  Size: 38008, Dimension: 1, Number of Processes: 4
+Time: 25.946547
+Input: 38000,  Size: 38008, Dimension: 1, Number of Processes: 4
+Time: 20.738049
+Input: 38000,  Size: 38008, Dimension: 1, Number of Processes: 4
+Time: 21.360525
+Input: 39000,  Size: 39008, Dimension: 1, Number of Processes: 4
+Time: 20.432927
+Input: 39000,  Size: 39008, Dimension: 1, Number of Processes: 4
+Time: 26.823979
+Input: 39000,  Size: 39008, Dimension: 1, Number of Processes: 4
+Time: 30.515815
+Input: 40000,  Size: 40008, Dimension: 1, Number of Processes: 4
+Time: 32.605307
+Input: 40000,  Size: 40008, Dimension: 1, Number of Processes: 4
+Time: 33.449744
+Input: 40000,  Size: 40008, Dimension: 1, Number of Processes: 4
+Time: 32.750207
+Input: 41000,  Size: 41008, Dimension: 1, Number of Processes: 4
+Time: 23.159713
+Input: 41000,  Size: 41008, Dimension: 1, Number of Processes: 4
+Time: 26.753133
+Input: 41000,  Size: 41008, Dimension: 1, Number of Processes: 4
+Time: 38.911524
+Input: 42000,  Size: 42008, Dimension: 1, Number of Processes: 4
+Time: 24.527365
+Input: 42000,  Size: 42008, Dimension: 1, Number of Processes: 4
+Time: 28.684322
+Input: 42000,  Size: 42008, Dimension: 1, Number of Processes: 4
+Time: 26.784127
+Input: 43000,  Size: 43008, Dimension: 1, Number of Processes: 4
+Time: 34.889031
+Input: 43000,  Size: 43008, Dimension: 1, Number of Processes: 4
+Time: 33.144666
+Input: 43000,  Size: 43008, Dimension: 1, Number of Processes: 4
+Time: 24.622685
+Input: 44000,  Size: 44008, Dimension: 1, Number of Processes: 4
+Time: 27.845513
+Input: 44000,  Size: 44008, Dimension: 1, Number of Processes: 4
+Time: 30.530303
+Input: 44000,  Size: 44008, Dimension: 1, Number of Processes: 4
+Time: 35.091191
+Input: 45000,  Size: 45008, Dimension: 1, Number of Processes: 4
+Time: 25.029922
+Input: 45000,  Size: 45008, Dimension: 1, Number of Processes: 4
+Time: 28.112029
+Input: 45000,  Size: 45008, Dimension: 1, Number of Processes: 4
+Time: 33.818450
+Input: 46000,  Size: 46008, Dimension: 1, Number of Processes: 4
+Time: 34.976247
+Input: 46000,  Size: 46008, Dimension: 1, Number of Processes: 4
+Time: 29.490233
+Input: 46000,  Size: 46008, Dimension: 1, Number of Processes: 4
+Time: 26.606046
+Input: 47000,  Size: 47008, Dimension: 1, Number of Processes: 4
+Time: 29.312410
+Input: 47000,  Size: 47008, Dimension: 1, Number of Processes: 4
+Time: 27.483296
+Input: 47000,  Size: 47008, Dimension: 1, Number of Processes: 4
+Time: 29.439665
+Input: 48000,  Size: 48008, Dimension: 1, Number of Processes: 4
+Time: 31.468791
+Input: 48000,  Size: 48008, Dimension: 1, Number of Processes: 4
+Time: 39.129568
+Input: 48000,  Size: 48008, Dimension: 1, Number of Processes: 4
+Time: 33.977590
+Input: 49000,  Size: 49008, Dimension: 1, Number of Processes: 4
+Time: 32.263005
+Input: 49000,  Size: 49008, Dimension: 1, Number of Processes: 4
+Time: 29.527013
+Input: 49000,  Size: 49008, Dimension: 1, Number of Processes: 4
+Time: 32.196755
+Input: 50000,  Size: 50008, Dimension: 1, Number of Processes: 4
+Time: 36.635263
+Input: 50000,  Size: 50008, Dimension: 1, Number of Processes: 4
+Time: 30.885160
+Input: 50000,  Size: 50008, Dimension: 1, Number of Processes: 4
+Time: 40.545820

@@ -1,0 +1,114 @@
+Input: 100,  Size: 104, Dimension: 2, Number of Processes: 4
+Time: 0.042780
+Input: 100,  Size: 104, Dimension: 2, Number of Processes: 4
+Time: 0.035784
+Input: 100,  Size: 104, Dimension: 2, Number of Processes: 4
+Time: 0.527753
+Input: 150,  Size: 152, Dimension: 2, Number of Processes: 4
+Time: 0.149997
+Input: 150,  Size: 152, Dimension: 2, Number of Processes: 4
+Time: 0.137632
+Input: 150,  Size: 152, Dimension: 2, Number of Processes: 4
+Time: 0.155693
+Input: 200,  Size: 208, Dimension: 2, Number of Processes: 4
+Time: 0.295384
+Input: 200,  Size: 208, Dimension: 2, Number of Processes: 4
+Time: 0.314323
+Input: 200,  Size: 208, Dimension: 2, Number of Processes: 4
+Time: 0.334495
+Input: 250,  Size: 256, Dimension: 2, Number of Processes: 4
+Time: 0.495933
+Input: 250,  Size: 256, Dimension: 2, Number of Processes: 4
+Time: 0.536917
+Input: 250,  Size: 256, Dimension: 2, Number of Processes: 4
+Time: 1.136200
+Input: 300,  Size: 304, Dimension: 2, Number of Processes: 4
+Time: 0.869958
+Input: 300,  Size: 304, Dimension: 2, Number of Processes: 4
+Time: 0.858824
+Input: 300,  Size: 304, Dimension: 2, Number of Processes: 4
+Time: 1.502066
+Input: 350,  Size: 352, Dimension: 2, Number of Processes: 4
+Time: 1.834972
+Input: 350,  Size: 352, Dimension: 2, Number of Processes: 4
+Time: 1.250560
+Input: 350,  Size: 352, Dimension: 2, Number of Processes: 4
+Time: 1.288926
+Input: 400,  Size: 408, Dimension: 2, Number of Processes: 4
+Time: 1.888546
+Input: 400,  Size: 408, Dimension: 2, Number of Processes: 4
+Time: 1.899939
+Input: 400,  Size: 408, Dimension: 2, Number of Processes: 4
+Time: 2.606666
+Input: 450,  Size: 456, Dimension: 2, Number of Processes: 4
+Time: 2.562681
+Input: 450,  Size: 456, Dimension: 2, Number of Processes: 4
+Time: 2.538097
+Input: 450,  Size: 456, Dimension: 2, Number of Processes: 4
+Time: 2.617459
+Input: 500,  Size: 504, Dimension: 2, Number of Processes: 4
+Time: 4.138260
+Input: 500,  Size: 504, Dimension: 2, Number of Processes: 4
+Time: 3.412229
+Input: 500,  Size: 504, Dimension: 2, Number of Processes: 4
+Time: 3.380982
+Input: 550,  Size: 552, Dimension: 2, Number of Processes: 4
+Time: 5.100392
+Input: 550,  Size: 552, Dimension: 2, Number of Processes: 4
+Time: 4.338922
+Input: 550,  Size: 552, Dimension: 2, Number of Processes: 4
+Time: 4.264558
+Input: 600,  Size: 608, Dimension: 2, Number of Processes: 4
+Time: 5.670527
+Input: 600,  Size: 608, Dimension: 2, Number of Processes: 4
+Time: 5.726034
+Input: 600,  Size: 608, Dimension: 2, Number of Processes: 4
+Time: 5.718985
+Input: 650,  Size: 656, Dimension: 2, Number of Processes: 4
+Time: 7.656508
+Input: 650,  Size: 656, Dimension: 2, Number of Processes: 4
+Time: 7.006904
+Input: 650,  Size: 656, Dimension: 2, Number of Processes: 4
+Time: 9.164349
+Input: 700,  Size: 704, Dimension: 2, Number of Processes: 4
+Time: 11.161078
+Input: 700,  Size: 704, Dimension: 2, Number of Processes: 4
+Time: 10.341443
+Input: 700,  Size: 704, Dimension: 2, Number of Processes: 4
+Time: 9.927154
+Input: 750,  Size: 752, Dimension: 2, Number of Processes: 4
+Time: 10.821630
+Input: 750,  Size: 752, Dimension: 2, Number of Processes: 4
+Time: 12.313264
+Input: 750,  Size: 752, Dimension: 2, Number of Processes: 4
+Time: 14.808024
+Input: 800,  Size: 808, Dimension: 2, Number of Processes: 4
+Time: 14.092961
+Input: 800,  Size: 808, Dimension: 2, Number of Processes: 4
+Time: 18.905155
+Input: 800,  Size: 808, Dimension: 2, Number of Processes: 4
+Time: 17.476704
+Input: 850,  Size: 856, Dimension: 2, Number of Processes: 4
+Time: 23.681847
+Input: 850,  Size: 856, Dimension: 2, Number of Processes: 4
+Time: 20.532414
+Input: 850,  Size: 856, Dimension: 2, Number of Processes: 4
+Time: 29.998035
+Input: 900,  Size: 904, Dimension: 2, Number of Processes: 4
+Time: 21.235980
+Input: 900,  Size: 904, Dimension: 2, Number of Processes: 4
+Time: 24.552218
+Input: 900,  Size: 904, Dimension: 2, Number of Processes: 4
+Time: 25.064005
+Input: 950,  Size: 952, Dimension: 2, Number of Processes: 4
+Time: 26.536378
+Input: 950,  Size: 952, Dimension: 2, Number of Processes: 4
+Time: 25.589280
+Input: 950,  Size: 952, Dimension: 2, Number of Processes: 4
+Time: 27.643915
+Input: 1000,  Size: 1008, Dimension: 2, Number of Processes: 4
+Time: 33.500754
+Input: 1000,  Size: 1008, Dimension: 2, Number of Processes: 4
+Time: 29.905610
+Input: 1000,  Size: 1008, Dimension: 2, Number of Processes: 4
+Time: 36.647616

@@ -1,0 +1,224 @@
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 1
+Total time: 56.855606 s
+Size: 2048, Dimension: 2, Threads: 1
+Total time: 56.862761 s
+Size: 2048, Dimension: 2, Threads: 1
+Total time: 57.359781 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 2
+Total time: 28.881363 s
+Size: 2048, Dimension: 2, Threads: 2
+Total time: 29.809295 s
+Size: 2048, Dimension: 2, Threads: 2
+Total time: 28.866205 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 3
+Total time: 19.324426 s
+Size: 2048, Dimension: 2, Threads: 3
+Total time: 20.084820 s
+Size: 2048, Dimension: 2, Threads: 3
+Total time: 19.307964 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 4
+Total time: 14.572319 s
+Size: 2048, Dimension: 2, Threads: 4
+Total time: 14.652822 s
+Size: 2048, Dimension: 2, Threads: 4
+Total time: 15.192393 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 5
+Total time: 11.862505 s
+Size: 2048, Dimension: 2, Threads: 5
+Total time: 11.882850 s
+Size: 2048, Dimension: 2, Threads: 5
+Total time: 11.820289 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 6
+Total time: 9.923434 s
+Size: 2048, Dimension: 2, Threads: 6
+Total time: 10.073773 s
+Size: 2048, Dimension: 2, Threads: 6
+Total time: 9.912471 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 7
+Total time: 8.589840 s
+Size: 2048, Dimension: 2, Threads: 7
+Total time: 8.588573 s
+Size: 2048, Dimension: 2, Threads: 7
+Total time: 8.637469 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 8
+Total time: 7.618071 s
+Size: 2048, Dimension: 2, Threads: 8
+Total time: 7.656488 s
+Size: 2048, Dimension: 2, Threads: 8
+Total time: 7.659998 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 9
+Total time: 6.795346 s
+Size: 2048, Dimension: 2, Threads: 9
+Total time: 6.781977 s
+Size: 2048, Dimension: 2, Threads: 9
+Total time: 6.806412 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 10
+Total time: 6.198830 s
+Size: 2048, Dimension: 2, Threads: 10
+Total time: 6.171835 s
+Size: 2048, Dimension: 2, Threads: 10
+Total time: 6.154413 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 11
+Total time: 5.648217 s
+Size: 2048, Dimension: 2, Threads: 11
+Total time: 5.639607 s
+Size: 2048, Dimension: 2, Threads: 11
+Total time: 5.691919 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 12
+Total time: 7.239822 s
+Size: 2048, Dimension: 2, Threads: 12
+Total time: 5.341625 s
+Size: 2048, Dimension: 2, Threads: 12
+Total time: 5.249147 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 13
+Total time: 4.850479 s
+Size: 2048, Dimension: 2, Threads: 13
+Total time: 4.856818 s
+Size: 2048, Dimension: 2, Threads: 13
+Total time: 4.885772 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 14
+Total time: 4.580785 s
+Size: 2048, Dimension: 2, Threads: 14
+Total time: 4.597185 s
+Size: 2048, Dimension: 2, Threads: 14
+Total time: 4.611464 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 15
+Total time: 4.357125 s
+Size: 2048, Dimension: 2, Threads: 15
+Total time: 4.373327 s
+Size: 2048, Dimension: 2, Threads: 15
+Total time: 4.294069 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 16
+Total time: 4.072653 s
+Size: 2048, Dimension: 2, Threads: 16
+Total time: 4.057563 s
+Size: 2048, Dimension: 2, Threads: 16
+Total time: 4.080038 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 17
+Total time: 5.542000 s
+Size: 2048, Dimension: 2, Threads: 17
+Total time: 3.861244 s
+Size: 2048, Dimension: 2, Threads: 17
+Total time: 3.884606 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 18
+Total time: 3.739523 s
+Size: 2048, Dimension: 2, Threads: 18
+Total time: 3.657233 s
+Size: 2048, Dimension: 2, Threads: 18
+Total time: 5.303008 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 19
+Total time: 3.683724 s
+Size: 2048, Dimension: 2, Threads: 19
+Total time: 3.618619 s
+Size: 2048, Dimension: 2, Threads: 19
+Total time: 3.701936 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 20
+Total time: 3.612871 s
+Size: 2048, Dimension: 2, Threads: 20
+Total time: 3.637761 s
+Size: 2048, Dimension: 2, Threads: 20
+Total time: 3.575370 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 21
+Total time: 3.432297 s
+Size: 2048, Dimension: 2, Threads: 21
+Total time: 4.457851 s
+Size: 2048, Dimension: 2, Threads: 21
+Total time: 3.233771 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 22
+Total time: 3.092020 s
+Size: 2048, Dimension: 2, Threads: 22
+Total time: 3.371130 s
+Size: 2048, Dimension: 2, Threads: 22
+Total time: 3.374304 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 23
+Total time: 3.214981 s
+Size: 2048, Dimension: 2, Threads: 23
+Total time: 3.193439 s
+Size: 2048, Dimension: 2, Threads: 23
+Total time: 3.194760 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 24
+Total time: 2.916808 s
+Size: 2048, Dimension: 2, Threads: 24
+Total time: 3.174646 s
+Size: 2048, Dimension: 2, Threads: 24
+Total time: 3.086997 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 25
+Total time: 3.096139 s
+Size: 2048, Dimension: 2, Threads: 25
+Total time: 3.270431 s
+Size: 2048, Dimension: 2, Threads: 25
+Total time: 3.338028 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 26
+Total time: 2.946224 s
+Size: 2048, Dimension: 2, Threads: 26
+Total time: 3.103996 s
+Size: 2048, Dimension: 2, Threads: 26
+Total time: 3.221235 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 27
+Total time: 3.036294 s
+Size: 2048, Dimension: 2, Threads: 27
+Total time: 3.030805 s
+Size: 2048, Dimension: 2, Threads: 27
+Total time: 3.680258 s
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Size: 2048, Dimension: 2, Threads: 28
+Total time: 3.031524 s
+Size: 2048, Dimension: 2, Threads: 28
+Total time: 2.797981 s
+Size: 2048, Dimension: 2, Threads: 28
+Total time: 2.818895 s

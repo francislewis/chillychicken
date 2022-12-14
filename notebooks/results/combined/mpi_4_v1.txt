@@ -1,0 +1,38 @@
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 6.097779
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 6.128347
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 8.662409
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 8.727568
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 5.864361
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 5.853467
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 9.009235
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 9.178020
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 6.134588
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 6.195425
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 8.777974
+
+Size: 32770, Dimension: 1, Number of Processes: 1, Number of Threads: 7
+Time: 8.815351

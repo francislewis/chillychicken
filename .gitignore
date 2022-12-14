@@ -65,3 +65,6 @@ previous_versions/
 /*.sh
 /accuracy/*.sh
 
+# Notebooks
+.ipynb_checkpoints
+

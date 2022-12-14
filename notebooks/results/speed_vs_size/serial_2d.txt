@@ -1,0 +1,114 @@
+Size: 100, Dimension: 2
+Time: 0
+Size: 100, Dimension: 2
+Time: 0
+Size: 100, Dimension: 2
+Time: 0
+Size: 150, Dimension: 2
+Time: 0
+Size: 150, Dimension: 2
+Time: 0
+Size: 150, Dimension: 2
+Time: 0
+Size: 200, Dimension: 2
+Time: 1
+Size: 200, Dimension: 2
+Time: 0
+Size: 200, Dimension: 2
+Time: 1
+Size: 250, Dimension: 2
+Time: 1
+Size: 250, Dimension: 2
+Time: 1
+Size: 250, Dimension: 2
+Time: 1
+Size: 300, Dimension: 2
+Time: 1
+Size: 300, Dimension: 2
+Time: 2
+Size: 300, Dimension: 2
+Time: 1
+Size: 350, Dimension: 2
+Time: 3
+Size: 350, Dimension: 2
+Time: 2
+Size: 350, Dimension: 2
+Time: 3
+Size: 400, Dimension: 2
+Time: 3
+Size: 400, Dimension: 2
+Time: 4
+Size: 400, Dimension: 2
+Time: 3
+Size: 450, Dimension: 2
+Time: 5
+Size: 450, Dimension: 2
+Time: 5
+Size: 450, Dimension: 2
+Time: 5
+Size: 500, Dimension: 2
+Time: 8
+Size: 500, Dimension: 2
+Time: 7
+Size: 500, Dimension: 2
+Time: 7
+Size: 550, Dimension: 2
+Time: 10
+Size: 550, Dimension: 2
+Time: 9
+Size: 550, Dimension: 2
+Time: 9
+Size: 600, Dimension: 2
+Time: 12
+Size: 600, Dimension: 2
+Time: 12
+Size: 600, Dimension: 2
+Time: 13
+Size: 650, Dimension: 2
+Time: 15
+Size: 650, Dimension: 2
+Time: 16
+Size: 650, Dimension: 2
+Time: 16
+Size: 700, Dimension: 2
+Time: 21
+Size: 700, Dimension: 2
+Time: 20
+Size: 700, Dimension: 2
+Time: 19
+Size: 750, Dimension: 2
+Time: 24
+Size: 750, Dimension: 2
+Time: 24
+Size: 750, Dimension: 2
+Time: 25
+Size: 800, Dimension: 2
+Time: 30
+Size: 800, Dimension: 2
+Time: 30
+Size: 800, Dimension: 2
+Time: 30
+Size: 850, Dimension: 2
+Time: 37
+Size: 850, Dimension: 2
+Time: 35
+Size: 850, Dimension: 2
+Time: 35
+Size: 900, Dimension: 2
+Time: 43
+Size: 900, Dimension: 2
+Time: 41
+Size: 900, Dimension: 2
+Time: 42
+Size: 950, Dimension: 2
+Time: 50
+Size: 950, Dimension: 2
+Time: 49
+Size: 950, Dimension: 2
+Time: 50
+Size: 1000, Dimension: 2
+Time: 58
+Size: 1000, Dimension: 2
+Time: 59
+Size: 1000, Dimension: 2
+Time: 60

@@ -1,0 +1,300 @@
+Size: 1000, Dimension: 1
+Time: 0
+Size: 1000, Dimension: 1
+Time: 0
+Size: 1000, Dimension: 1
+Time: 0
+Size: 2000, Dimension: 1
+Time: 0
+Size: 2000, Dimension: 1
+Time: 0
+Size: 2000, Dimension: 1
+Time: 0
+Size: 3000, Dimension: 1
+Time: 0
+Size: 3000, Dimension: 1
+Time: 1
+Size: 3000, Dimension: 1
+Time: 0
+Size: 4000, Dimension: 1
+Time: 0
+Size: 4000, Dimension: 1
+Time: 1
+Size: 4000, Dimension: 1
+Time: 0
+Size: 5000, Dimension: 1
+Time: 1
+Size: 5000, Dimension: 1
+Time: 1
+Size: 5000, Dimension: 1
+Time: 0
+Size: 6000, Dimension: 1
+Time: 1
+Size: 6000, Dimension: 1
+Time: 1
+Size: 6000, Dimension: 1
+Time: 1
+Size: 7000, Dimension: 1
+Time: 2
+Size: 7000, Dimension: 1
+Time: 1
+Size: 7000, Dimension: 1
+Time: 1
+Size: 8000, Dimension: 1
+Time: 2
+Size: 8000, Dimension: 1
+Time: 2
+Size: 8000, Dimension: 1
+Time: 2
+Size: 9000, Dimension: 1
+Time: 2
+Size: 9000, Dimension: 1
+Time: 2
+Size: 9000, Dimension: 1
+Time: 2
+Size: 10000, Dimension: 1
+Time: 3
+Size: 10000, Dimension: 1
+Time: 3
+Size: 10000, Dimension: 1
+Time: 3
+Size: 11000, Dimension: 1
+Time: 3
+Size: 11000, Dimension: 1
+Time: 3
+Size: 11000, Dimension: 1
+Time: 3
+Size: 12000, Dimension: 1
+Time: 4
+Size: 12000, Dimension: 1
+Time: 4
+Size: 12000, Dimension: 1
+Time: 4
+Size: 13000, Dimension: 1
+Time: 5
+Size: 13000, Dimension: 1
+Time: 5
+Size: 13000, Dimension: 1
+Time: 5
+Size: 14000, Dimension: 1
+Time: 5
+Size: 14000, Dimension: 1
+Time: 5
+Size: 14000, Dimension: 1
+Time: 6
+Size: 15000, Dimension: 1
+Time: 6
+Size: 15000, Dimension: 1
+Time: 6
+Size: 15000, Dimension: 1
+Time: 6
+Size: 16000, Dimension: 1
+Time: 7
+Size: 16000, Dimension: 1
+Time: 7
+Size: 16000, Dimension: 1
+Time: 7
+Size: 17000, Dimension: 1
+Time: 8
+Size: 17000, Dimension: 1
+Time: 8
+Size: 17000, Dimension: 1
+Time: 9
+Size: 18000, Dimension: 1
+Time: 9
+Size: 18000, Dimension: 1
+Time: 9
+Size: 18000, Dimension: 1
+Time: 9
+Size: 19000, Dimension: 1
+Time: 10
+Size: 19000, Dimension: 1
+Time: 10
+Size: 19000, Dimension: 1
+Time: 10
+Size: 20000, Dimension: 1
+Time: 11
+Size: 20000, Dimension: 1
+Time: 11
+Size: 20000, Dimension: 1
+Time: 11
+Size: 21000, Dimension: 1
+Time: 12
+Size: 21000, Dimension: 1
+Time: 12
+Size: 21000, Dimension: 1
+Time: 12
+Size: 22000, Dimension: 1
+Time: 14
+Size: 22000, Dimension: 1
+Time: 13
+Size: 22000, Dimension: 1
+Time: 13
+Size: 23000, Dimension: 1
+Time: 15
+Size: 23000, Dimension: 1
+Time: 14
+Size: 23000, Dimension: 1
+Time: 15
+Size: 24000, Dimension: 1
+Time: 18
+Size: 24000, Dimension: 1
+Time: 16
+Size: 24000, Dimension: 1
+Time: 16
+Size: 25000, Dimension: 1
+Time: 19
+Size: 25000, Dimension: 1
+Time: 18
+Size: 25000, Dimension: 1
+Time: 18
+Size: 26000, Dimension: 1
+Time: 19
+Size: 26000, Dimension: 1
+Time: 18
+Size: 26000, Dimension: 1
+Time: 19
+Size: 27000, Dimension: 1
+Time: 20
+Size: 27000, Dimension: 1
+Time: 20
+Size: 27000, Dimension: 1
+Time: 20
+Size: 28000, Dimension: 1
+Time: 21
+Size: 28000, Dimension: 1
+Time: 23
+Size: 28000, Dimension: 1
+Time: 22
+Size: 29000, Dimension: 1
+Time: 23
+Size: 29000, Dimension: 1
+Time: 22
+Size: 29000, Dimension: 1
+Time: 24
+Size: 30000, Dimension: 1
+Time: 25
+Size: 30000, Dimension: 1
+Time: 24
+Size: 30000, Dimension: 1
+Time: 25
+Size: 31000, Dimension: 1
+Time: 27
+Size: 31000, Dimension: 1
+Time: 27
+Size: 31000, Dimension: 1
+Time: 27
+Size: 32000, Dimension: 1
+Time: 29
+Size: 32000, Dimension: 1
+Time: 29
+Size: 32000, Dimension: 1
+Time: 28
+Size: 33000, Dimension: 1
+Time: 31
+Size: 33000, Dimension: 1
+Time: 30
+Size: 33000, Dimension: 1
+Time: 31
+Size: 34000, Dimension: 1
+Time: 32
+Size: 34000, Dimension: 1
+Time: 34
+Size: 34000, Dimension: 1
+Time: 33
+Size: 35000, Dimension: 1
+Time: 35
+Size: 35000, Dimension: 1
+Time: 36
+Size: 35000, Dimension: 1
+Time: 34
+Size: 36000, Dimension: 1
+Time: 36
+Size: 36000, Dimension: 1
+Time: 36
+Size: 36000, Dimension: 1
+Time: 38
+Size: 37000, Dimension: 1
+Time: 41
+Size: 37000, Dimension: 1
+Time: 41
+Size: 37000, Dimension: 1
+Time: 39
+Size: 38000, Dimension: 1
+Time: 42
+Size: 38000, Dimension: 1
+Time: 40
+Size: 38000, Dimension: 1
+Time: 39
+Size: 39000, Dimension: 1
+Time: 42
+Size: 39000, Dimension: 1
+Time: 44
+Size: 39000, Dimension: 1
+Time: 43
+Size: 40000, Dimension: 1
+Time: 44
+Size: 40000, Dimension: 1
+Time: 45
+Size: 40000, Dimension: 1
+Time: 47
+Size: 41000, Dimension: 1
+Time: 47
+Size: 41000, Dimension: 1
+Time: 47
+Size: 41000, Dimension: 1
+Time: 45
+Size: 42000, Dimension: 1
+Time: 49
+Size: 42000, Dimension: 1
+Time: 51
+Size: 42000, Dimension: 1
+Time: 50
+Size: 43000, Dimension: 1
+Time: 50
+Size: 43000, Dimension: 1
+Time: 51
+Size: 43000, Dimension: 1
+Time: 50
+Size: 44000, Dimension: 1
+Time: 53
+Size: 44000, Dimension: 1
+Time: 53
+Size: 44000, Dimension: 1
+Time: 52
+Size: 45000, Dimension: 1
+Time: 57
+Size: 45000, Dimension: 1
+Time: 56
+Size: 45000, Dimension: 1
+Time: 57
+Size: 46000, Dimension: 1
+Time: 58
+Size: 46000, Dimension: 1
+Time: 59
+Size: 46000, Dimension: 1
+Time: 60
+Size: 47000, Dimension: 1
+Time: 61
+Size: 47000, Dimension: 1
+Time: 63
+Size: 47000, Dimension: 1
+Time: 60
+Size: 48000, Dimension: 1
+Time: 64
+Size: 48000, Dimension: 1
+Time: 63
+Size: 48000, Dimension: 1
+Time: 64
+Size: 49000, Dimension: 1
+Time: 66
+Size: 49000, Dimension: 1
+Time: 66
+Size: 49000, Dimension: 1
+Time: 66
+Size: 50000, Dimension: 1
+Time: 71
+Size: 50000, Dimension: 1
+Time: 70
+Size: 50000, Dimension: 1
+Time: 69

@@ -1,0 +1,224 @@
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131074, Dimension: 1, Number of Processes: 1
+Time: 681.532800
+Input: 131072,  Size: 131074, Dimension: 1, Number of Processes: 1
+Time: 681.336817
+Input: 131072,  Size: 131074, Dimension: 1, Number of Processes: 1
+Time: 681.012303
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 2
+Time: 358.563305
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 2
+Time: 353.684777
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 2
+Time: 353.554605
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 3
+Time: 244.375844
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 3
+Time: 240.330697
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 3
+Time: 240.636587
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 4
+Time: 185.420211
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 4
+Time: 183.401074
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 4
+Time: 188.627316
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 5
+Time: 176.761969
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 5
+Time: 175.343428
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 5
+Time: 177.220012
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 6
+Time: 129.436319
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 6
+Time: 127.908914
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 6
+Time: 127.960165
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 7
+Time: 113.360463
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 7
+Time: 112.813740
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 7
+Time: 113.192970
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 8
+Time: 112.256561
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 8
+Time: 113.907594
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 8
+Time: 115.909734
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 9
+Time: 94.113438
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 9
+Time: 93.904269
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 9
+Time: 91.814527
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 10
+Time: 85.462802
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 10
+Time: 83.661924
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 10
+Time: 86.217762
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 11
+Time: 81.578116
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 11
+Time: 79.153270
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 11
+Time: 79.148831
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 12
+Time: 77.177258
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 12
+Time: 77.322050
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 12
+Time: 78.319375
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 13
+Time: 70.524023
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 13
+Time: 71.001290
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 13
+Time: 70.402463
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 14
+Time: 68.842307
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 14
+Time: 68.736741
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 14
+Time: 64.968457
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 15
+Time: 62.859596
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 15
+Time: 66.443539
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 15
+Time: 62.659253
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 16
+Time: 60.603888
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 16
+Time: 60.372781
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 16
+Time: 63.219008
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 17
+Time: 72.025495
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 17
+Time: 66.911414
+Input: 131072,  Size: 131104, Dimension: 1, Number of Processes: 17
+Time: 71.475191
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 18
+Time: 64.509415
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 18
+Time: 70.439542
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 18
+Time: 64.566746
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 19
+Time: 63.776585
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 19
+Time: 67.873638
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 19
+Time: 65.398857
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 20
+Time: 61.491468
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 20
+Time: 60.355559
+Input: 131072,  Size: 131080, Dimension: 1, Number of Processes: 20
+Time: 60.607528
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 21
+Time: 61.008484
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 21
+Time: 64.389898
+Input: 131072,  Size: 131082, Dimension: 1, Number of Processes: 21
+Time: 59.543921
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 22
+Time: 63.324828
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 22
+Time: 63.149833
+Input: 131072,  Size: 131076, Dimension: 1, Number of Processes: 22
+Time: 63.138791
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 23
+Time: 56.818055
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 23
+Time: 62.231877
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 23
+Time: 62.736356
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 24
+Time: 60.403614
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 24
+Time: 55.185301
+Input: 131072,  Size: 131088, Dimension: 1, Number of Processes: 24
+Time: 59.725016
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 25
+Time: 56.608655
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 25
+Time: 55.103320
+Input: 131072,  Size: 131100, Dimension: 1, Number of Processes: 25
+Time: 58.426589
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 26
+Time: 53.794136
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 26
+Time: 59.937245
+Input: 131072,  Size: 131092, Dimension: 1, Number of Processes: 26
+Time: 53.852840
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131112, Dimension: 1, Number of Processes: 27
+Time: 53.219632
+Input: 131072,  Size: 131112, Dimension: 1, Number of Processes: 27
+Time: 55.282978
+Input: 131072,  Size: 131112, Dimension: 1, Number of Processes: 27
+Time: 58.420472
+Intel(R) Parallel Studio XE 2020 Update 4 for Linux*
+Copyright 2009-2020 Intel Corporation.
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 28
+Time: 52.308741
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 28
+Time: 52.028531
+Input: 131072,  Size: 131096, Dimension: 1, Number of Processes: 28
+Time: 51.541689

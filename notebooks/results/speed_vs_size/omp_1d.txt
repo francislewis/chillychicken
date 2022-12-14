@@ -1,0 +1,300 @@
+Size: 1000, Dimension: 1, Threads: 4
+Final Time: 0.008521 s
+Size: 1000, Dimension: 1, Threads: 4
+Final Time: 0.008149 s
+Size: 1000, Dimension: 1, Threads: 4
+Final Time: 0.008420 s
+Size: 2000, Dimension: 1, Threads: 4
+Final Time: 0.032208 s
+Size: 2000, Dimension: 1, Threads: 4
+Final Time: 0.031075 s
+Size: 2000, Dimension: 1, Threads: 4
+Final Time: 0.032961 s
+Size: 3000, Dimension: 1, Threads: 4
+Final Time: 0.070625 s
+Size: 3000, Dimension: 1, Threads: 4
+Final Time: 0.069132 s
+Size: 3000, Dimension: 1, Threads: 4
+Final Time: 0.069580 s
+Size: 4000, Dimension: 1, Threads: 4
+Final Time: 0.122625 s
+Size: 4000, Dimension: 1, Threads: 4
+Final Time: 0.121157 s
+Size: 4000, Dimension: 1, Threads: 4
+Final Time: 0.123401 s
+Size: 5000, Dimension: 1, Threads: 4
+Final Time: 0.185172 s
+Size: 5000, Dimension: 1, Threads: 4
+Final Time: 0.191186 s
+Size: 5000, Dimension: 1, Threads: 4
+Final Time: 0.194196 s
+Size: 6000, Dimension: 1, Threads: 4
+Final Time: 0.271673 s
+Size: 6000, Dimension: 1, Threads: 4
+Final Time: 0.271546 s
+Size: 6000, Dimension: 1, Threads: 4
+Final Time: 0.283440 s
+Size: 7000, Dimension: 1, Threads: 4
+Final Time: 0.374213 s
+Size: 7000, Dimension: 1, Threads: 4
+Final Time: 0.380615 s
+Size: 7000, Dimension: 1, Threads: 4
+Final Time: 0.377247 s
+Size: 8000, Dimension: 1, Threads: 4
+Final Time: 0.500214 s
+Size: 8000, Dimension: 1, Threads: 4
+Final Time: 0.484510 s
+Size: 8000, Dimension: 1, Threads: 4
+Final Time: 0.487422 s
+Size: 9000, Dimension: 1, Threads: 4
+Final Time: 0.643696 s
+Size: 9000, Dimension: 1, Threads: 4
+Final Time: 0.670723 s
+Size: 9000, Dimension: 1, Threads: 4
+Final Time: 0.644360 s
+Size: 10000, Dimension: 1, Threads: 4
+Final Time: 0.762530 s
+Size: 10000, Dimension: 1, Threads: 4
+Final Time: 0.756730 s
+Size: 10000, Dimension: 1, Threads: 4
+Final Time: 0.758055 s
+Size: 11000, Dimension: 1, Threads: 4
+Final Time: 0.917070 s
+Size: 11000, Dimension: 1, Threads: 4
+Final Time: 0.915269 s
+Size: 11000, Dimension: 1, Threads: 4
+Final Time: 0.909707 s
+Size: 12000, Dimension: 1, Threads: 4
+Final Time: 1.107401 s
+Size: 12000, Dimension: 1, Threads: 4
+Final Time: 1.115412 s
+Size: 12000, Dimension: 1, Threads: 4
+Final Time: 1.088797 s
+Size: 13000, Dimension: 1, Threads: 4
+Final Time: 1.265056 s
+Size: 13000, Dimension: 1, Threads: 4
+Final Time: 1.286519 s
+Size: 13000, Dimension: 1, Threads: 4
+Final Time: 1.304832 s
+Size: 14000, Dimension: 1, Threads: 4
+Final Time: 1.510193 s
+Size: 14000, Dimension: 1, Threads: 4
+Final Time: 1.508475 s
+Size: 14000, Dimension: 1, Threads: 4
+Final Time: 1.520145 s
+Size: 15000, Dimension: 1, Threads: 4
+Final Time: 1.749834 s
+Size: 15000, Dimension: 1, Threads: 4
+Final Time: 1.790512 s
+Size: 15000, Dimension: 1, Threads: 4
+Final Time: 1.818861 s
+Size: 16000, Dimension: 1, Threads: 4
+Final Time: 1.968110 s
+Size: 16000, Dimension: 1, Threads: 4
+Final Time: 1.975183 s
+Size: 16000, Dimension: 1, Threads: 4
+Final Time: 1.939663 s
+Size: 17000, Dimension: 1, Threads: 4
+Final Time: 2.175711 s
+Size: 17000, Dimension: 1, Threads: 4
+Final Time: 2.193538 s
+Size: 17000, Dimension: 1, Threads: 4
+Final Time: 2.164634 s
+Size: 18000, Dimension: 1, Threads: 4
+Final Time: 2.429893 s
+Size: 18000, Dimension: 1, Threads: 4
+Final Time: 2.430230 s
+Size: 18000, Dimension: 1, Threads: 4
+Final Time: 2.496133 s
+Size: 19000, Dimension: 1, Threads: 4
+Final Time: 2.852401 s
+Size: 19000, Dimension: 1, Threads: 4
+Final Time: 2.800601 s
+Size: 19000, Dimension: 1, Threads: 4
+Final Time: 2.756198 s
+Size: 20000, Dimension: 1, Threads: 4
+Final Time: 3.170007 s
+Size: 20000, Dimension: 1, Threads: 4
+Final Time: 3.059347 s
+Size: 20000, Dimension: 1, Threads: 4
+Final Time: 3.081793 s
+Size: 21000, Dimension: 1, Threads: 4
+Final Time: 3.496559 s
+Size: 21000, Dimension: 1, Threads: 4
+Final Time: 3.537076 s
+Size: 21000, Dimension: 1, Threads: 4
+Final Time: 3.633703 s
+Size: 22000, Dimension: 1, Threads: 4
+Final Time: 3.976792 s
+Size: 22000, Dimension: 1, Threads: 4
+Final Time: 3.848701 s
+Size: 22000, Dimension: 1, Threads: 4
+Final Time: 10.041609 s
+Size: 23000, Dimension: 1, Threads: 4
+Final Time: 7.659411 s
+Size: 23000, Dimension: 1, Threads: 4
+Final Time: 6.197904 s
+Size: 23000, Dimension: 1, Threads: 4
+Final Time: 5.233249 s
+Size: 24000, Dimension: 1, Threads: 4
+Final Time: 5.475655 s
+Size: 24000, Dimension: 1, Threads: 4
+Final Time: 5.246759 s
+Size: 24000, Dimension: 1, Threads: 4
+Final Time: 4.827787 s
+Size: 25000, Dimension: 1, Threads: 4
+Final Time: 5.116723 s
+Size: 25000, Dimension: 1, Threads: 4
+Final Time: 6.165602 s
+Size: 25000, Dimension: 1, Threads: 4
+Final Time: 5.659817 s
+Size: 26000, Dimension: 1, Threads: 4
+Final Time: 5.766505 s
+Size: 26000, Dimension: 1, Threads: 4
+Final Time: 9.934621 s
+Size: 26000, Dimension: 1, Threads: 4
+Final Time: 17.312644 s
+Size: 27000, Dimension: 1, Threads: 4
+Final Time: 8.747324 s
+Size: 27000, Dimension: 1, Threads: 4
+Final Time: 7.787615 s
+Size: 27000, Dimension: 1, Threads: 4
+Final Time: 6.671708 s
+Size: 28000, Dimension: 1, Threads: 4
+Final Time: 7.242243 s
+Size: 28000, Dimension: 1, Threads: 4
+Final Time: 7.057715 s
+Size: 28000, Dimension: 1, Threads: 4
+Final Time: 7.607653 s
+Size: 29000, Dimension: 1, Threads: 4
+Final Time: 9.114050 s
+Size: 29000, Dimension: 1, Threads: 4
+Final Time: 7.390213 s
+Size: 29000, Dimension: 1, Threads: 4
+Final Time: 6.764117 s
+Size: 30000, Dimension: 1, Threads: 4
+Final Time: 7.357623 s
+Size: 30000, Dimension: 1, Threads: 4
+Final Time: 9.250632 s
+Size: 30000, Dimension: 1, Threads: 4
+Final Time: 7.804759 s
+Size: 31000, Dimension: 1, Threads: 4
+Final Time: 7.642382 s
+Size: 31000, Dimension: 1, Threads: 4
+Final Time: 7.258249 s
+Size: 31000, Dimension: 1, Threads: 4
+Final Time: 9.693700 s
+Size: 32000, Dimension: 1, Threads: 4
+Final Time: 9.679857 s
+Size: 32000, Dimension: 1, Threads: 4
+Final Time: 8.645935 s
+Size: 32000, Dimension: 1, Threads: 4
+Final Time: 7.724762 s
+Size: 33000, Dimension: 1, Threads: 4
+Final Time: 8.508935 s
+Size: 33000, Dimension: 1, Threads: 4
+Final Time: 8.885225 s
+Size: 33000, Dimension: 1, Threads: 4
+Final Time: 8.270981 s
+Size: 34000, Dimension: 1, Threads: 4
+Final Time: 9.109446 s
+Size: 34000, Dimension: 1, Threads: 4
+Final Time: 8.689658 s
+Size: 34000, Dimension: 1, Threads: 4
+Final Time: 9.169179 s
+Size: 35000, Dimension: 1, Threads: 4
+Final Time: 9.555107 s
+Size: 35000, Dimension: 1, Threads: 4
+Final Time: 9.476137 s
+Size: 35000, Dimension: 1, Threads: 4
+Final Time: 10.094515 s
+Size: 36000, Dimension: 1, Threads: 4
+Final Time: 13.489670 s
+Size: 36000, Dimension: 1, Threads: 4
+Final Time: 10.890433 s
+Size: 36000, Dimension: 1, Threads: 4
+Final Time: 9.863175 s
+Size: 37000, Dimension: 1, Threads: 4
+Final Time: 10.500565 s
+Size: 37000, Dimension: 1, Threads: 4
+Final Time: 10.635305 s
+Size: 37000, Dimension: 1, Threads: 4
+Final Time: 10.740508 s
+Size: 38000, Dimension: 1, Threads: 4
+Final Time: 11.160015 s
+Size: 38000, Dimension: 1, Threads: 4
+Final Time: 14.266620 s
+Size: 38000, Dimension: 1, Threads: 4
+Final Time: 11.582163 s
+Size: 39000, Dimension: 1, Threads: 4
+Final Time: 11.625934 s
+Size: 39000, Dimension: 1, Threads: 4
+Final Time: 11.740054 s
+Size: 39000, Dimension: 1, Threads: 4
+Final Time: 11.926216 s
+Size: 40000, Dimension: 1, Threads: 4
+Final Time: 12.724866 s
+Size: 40000, Dimension: 1, Threads: 4
+Final Time: 14.765551 s
+Size: 40000, Dimension: 1, Threads: 4
+Final Time: 14.055264 s
+Size: 41000, Dimension: 1, Threads: 4
+Final Time: 12.913471 s
+Size: 41000, Dimension: 1, Threads: 4
+Final Time: 12.753476 s
+Size: 41000, Dimension: 1, Threads: 4
+Final Time: 12.967645 s
+Size: 42000, Dimension: 1, Threads: 4
+Final Time: 13.944603 s
+Size: 42000, Dimension: 1, Threads: 4
+Final Time: 13.447773 s
+Size: 42000, Dimension: 1, Threads: 4
+Final Time: 13.752089 s
+Size: 43000, Dimension: 1, Threads: 4
+Final Time: 14.226273 s
+Size: 43000, Dimension: 1, Threads: 4
+Final Time: 14.300017 s
+Size: 43000, Dimension: 1, Threads: 4
+Final Time: 17.242529 s
+Size: 44000, Dimension: 1, Threads: 4
+Final Time: 15.785087 s
+Size: 44000, Dimension: 1, Threads: 4
+Final Time: 14.861730 s
+Size: 44000, Dimension: 1, Threads: 4
+Final Time: 14.986907 s
+Size: 45000, Dimension: 1, Threads: 4
+Final Time: 15.444966 s
+Size: 45000, Dimension: 1, Threads: 4
+Final Time: 15.761877 s
+Size: 45000, Dimension: 1, Threads: 4
+Final Time: 20.451895 s
+Size: 46000, Dimension: 1, Threads: 4
+Final Time: 18.415032 s
+Size: 46000, Dimension: 1, Threads: 4
+Final Time: 16.139362 s
+Size: 46000, Dimension: 1, Threads: 4
+Final Time: 16.237476 s
+Size: 47000, Dimension: 1, Threads: 4
+Final Time: 20.336529 s
+Size: 47000, Dimension: 1, Threads: 4
+Final Time: 17.602901 s
+Size: 47000, Dimension: 1, Threads: 4
+Final Time: 19.951712 s
+Size: 48000, Dimension: 1, Threads: 4
+Final Time: 18.328366 s
+Size: 48000, Dimension: 1, Threads: 4
+Final Time: 18.805793 s
+Size: 48000, Dimension: 1, Threads: 4
+Final Time: 18.977398 s
+Size: 49000, Dimension: 1, Threads: 4
+Final Time: 20.764805 s
+Size: 49000, Dimension: 1, Threads: 4
+Final Time: 18.585418 s
+Size: 49000, Dimension: 1, Threads: 4
+Final Time: 18.665211 s
+Size: 50000, Dimension: 1, Threads: 4
+Final Time: 19.163299 s
+Size: 50000, Dimension: 1, Threads: 4
+Final Time: 23.930177 s
+Size: 50000, Dimension: 1, Threads: 4
+Final Time: 19.297468 s

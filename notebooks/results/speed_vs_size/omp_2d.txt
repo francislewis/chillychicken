@@ -1,0 +1,114 @@
+Size: 100, Dimension: 2, Threads: 4
+Total time: 0.020438 s
+Size: 100, Dimension: 2, Threads: 4
+Total time: 0.016891 s
+Size: 100, Dimension: 2, Threads: 4
+Total time: 0.015988 s
+Size: 150, Dimension: 2, Threads: 4
+Total time: 0.056986 s
+Size: 150, Dimension: 2, Threads: 4
+Total time: 0.055844 s
+Size: 150, Dimension: 2, Threads: 4
+Total time: 0.056972 s
+Size: 200, Dimension: 2, Threads: 4
+Total time: 0.127334 s
+Size: 200, Dimension: 2, Threads: 4
+Total time: 0.129270 s
+Size: 200, Dimension: 2, Threads: 4
+Total time: 0.133361 s
+Size: 250, Dimension: 2, Threads: 4
+Total time: 0.263401 s
+Size: 250, Dimension: 2, Threads: 4
+Total time: 0.260897 s
+Size: 250, Dimension: 2, Threads: 4
+Total time: 0.265832 s
+Size: 300, Dimension: 2, Threads: 4
+Total time: 0.457536 s
+Size: 300, Dimension: 2, Threads: 4
+Total time: 0.434465 s
+Size: 300, Dimension: 2, Threads: 4
+Total time: 0.438790 s
+Size: 350, Dimension: 2, Threads: 4
+Total time: 0.680010 s
+Size: 350, Dimension: 2, Threads: 4
+Total time: 0.709784 s
+Size: 350, Dimension: 2, Threads: 4
+Total time: 0.792229 s
+Size: 400, Dimension: 2, Threads: 4
+Total time: 1.061393 s
+Size: 400, Dimension: 2, Threads: 4
+Total time: 1.014185 s
+Size: 400, Dimension: 2, Threads: 4
+Total time: 1.013200 s
+Size: 450, Dimension: 2, Threads: 4
+Total time: 1.461466 s
+Size: 450, Dimension: 2, Threads: 4
+Total time: 1.582327 s
+Size: 450, Dimension: 2, Threads: 4
+Total time: 1.605845 s
+Size: 500, Dimension: 2, Threads: 4
+Total time: 2.104180 s
+Size: 500, Dimension: 2, Threads: 4
+Total time: 2.071609 s
+Size: 500, Dimension: 2, Threads: 4
+Total time: 2.024173 s
+Size: 550, Dimension: 2, Threads: 4
+Total time: 2.991754 s
+Size: 550, Dimension: 2, Threads: 4
+Total time: 2.968566 s
+Size: 550, Dimension: 2, Threads: 4
+Total time: 2.980501 s
+Size: 600, Dimension: 2, Threads: 4
+Total time: 3.993541 s
+Size: 600, Dimension: 2, Threads: 4
+Total time: 3.783753 s
+Size: 600, Dimension: 2, Threads: 4
+Total time: 3.847186 s
+Size: 650, Dimension: 2, Threads: 4
+Total time: 4.795775 s
+Size: 650, Dimension: 2, Threads: 4
+Total time: 6.600588 s
+Size: 650, Dimension: 2, Threads: 4
+Total time: 11.288679 s
+Size: 700, Dimension: 2, Threads: 4
+Total time: 8.394664 s
+Size: 700, Dimension: 2, Threads: 4
+Total time: 7.543864 s
+Size: 700, Dimension: 2, Threads: 4
+Total time: 6.817834 s
+Size: 750, Dimension: 2, Threads: 4
+Total time: 7.898930 s
+Size: 750, Dimension: 2, Threads: 4
+Total time: 7.725617 s
+Size: 750, Dimension: 2, Threads: 4
+Total time: 7.880231 s
+Size: 800, Dimension: 2, Threads: 4
+Total time: 9.521799 s
+Size: 800, Dimension: 2, Threads: 4
+Total time: 9.961930 s
+Size: 800, Dimension: 2, Threads: 4
+Total time: 9.940273 s
+Size: 850, Dimension: 2, Threads: 4
+Total time: 11.647266 s
+Size: 850, Dimension: 2, Threads: 4
+Total time: 11.688025 s
+Size: 850, Dimension: 2, Threads: 4
+Total time: 11.739408 s
+Size: 900, Dimension: 2, Threads: 4
+Total time: 13.896515 s
+Size: 900, Dimension: 2, Threads: 4
+Total time: 14.193667 s
+Size: 900, Dimension: 2, Threads: 4
+Total time: 13.951449 s
+Size: 950, Dimension: 2, Threads: 4
+Total time: 16.729447 s
+Size: 950, Dimension: 2, Threads: 4
+Total time: 21.641962 s
+Size: 950, Dimension: 2, Threads: 4
+Total time: 17.994642 s
+Size: 1000, Dimension: 2, Threads: 4
+Total time: 19.132593 s
+Size: 1000, Dimension: 2, Threads: 4
+Total time: 16.713412 s
+Size: 1000, Dimension: 2, Threads: 4
+Total time: 20.570762 s
