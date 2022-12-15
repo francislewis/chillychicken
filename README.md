@@ -20,7 +20,3 @@ My full report can be found under [`reports/`](reports/)
 Compilation instructions are included in [`compilation_instructions.txt`]([`compilation_instructions.txt). 
 Instructions are provided for gcc and icc, although any compiler supporting the c99 standard will suffice.
 
-TODO:
-
-- Create MAKE files for easier building
-
